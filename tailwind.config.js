@@ -5,46 +5,42 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ["Futura", "Arial", "sans-serif"],
-      mono: ["Lucida Console", "Courier", "monospace"],
-      neueLight: ["Neue-Light"],
-      neueRegular: ["Neue-Regular"],
-      neueBold: ["Neue-Bold"],
-      suisseLight: ["Suisse-Light"],
-      suisseRegular: ["Suisse-Regular"],
-      suisseBold: ["Suisse-Bold"],
-      futuraLight: ["Futura-Light"],
+      'sans': ['Arial', 'sans-serif'],
+      'mono': ['Lucida Console', 'Courier', 'monospace'],
+      montrealBold: ["montreal-bold"],
+      montrealMedium: ["montreal-medium"],
+      montrealRegular: ["montreal-regular"],
+      montrealLight: ["montreal-light"],
     },
     screens: {
-      xsm: "400px",
       sm: "640px",
       md: "768px",
       lg: "1024px",
       xl: "1280px",
       "2xl": "1600px",
-      "3xl": "2000px",
+      "3xl": "1920px"
     },
     extend: {
       colors: {
-        black: "#000",
-        white: "#FFF",
-        gray: "fbae17",
         palette: {
-          blue: "#233D5B",
+          blue: "#010C80",
           silver:"#99A1AC",
           orange:"#F75C0F",
           lightOrange:"#f87c3e",
           white: "#FFF",
+          red:"#7E101A"
         },
-      },
-      textUnderlineOffset : {
-        16 : '16px'
-      },
-      height: (theme) => ({
-        "50vh": "50vh",
-        "75vh": "75vh",
-      }),
+        'black': '#000',
+        'white': '#FFF',
+        'example-color': {
+          light: '#ffb288',
+          DEFAULT: '#d18d67',
+          dark: '#ce8860',
+        },
+      }
+      
     },
+    
   },
-  plugins: [],
-};
+  plugins: []
+}

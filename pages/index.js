@@ -1,41 +1,31 @@
-import { useRef } from "react";
-import Layout from "../components/layout";
-import Header from "../components/header/header";
-import Hero from "../components/hero";
-import Services from "../components/services";
-import About from '../components/about'
-import Contact from "../components/contact";
-import Footer from "../components/footer";
-import { LazyMotion, domAnimation, m } from "framer-motion";
-import { NextSeo } from "next-seo";
-import React from "react";
-import Carousel from "@/components/carousel";
-import CarouselText from "@/components/carouselText";
+import Layout from '@/components/layout'
+import Header from '@/components/header/header'
+import Footer from '@/components/footer'
+import Container from '@/components/container'
+import FancyLink from '@/components/fancyLink'
+import { fade } from '@/helpers/transitions'
+import { LazyMotion, domAnimation, m } from 'framer-motion'
+import { NextSeo } from 'next-seo'
+import Hero from '@/components/hero'
+import About from '@/components/about'
+import Content from '@/components/content'
+import Contact from '@/components/contact'
+import Services from '@/components/services'
+import ContentWithCTA from '@/components/contentWithCTA'
 
-export default function Home(){
-
-  const aboutRef = useRef(null)
-  const clientsRef = useRef(null)
-  const contactRef = useRef(null)
-  const servicesRef = useRef(null)
-
-  const sectionsRefs = [aboutRef, servicesRef, clientsRef, contactRef]
-
+export default function Home() {
   return (
     <Layout>
       <NextSeo title="Home" />
       <LazyMotion features={domAnimation}>
-        <m.div initial="initial" animate="enter" exit="exit">
-        <Header />
-          <Hero />
-          <About />
-          <Services />
-          <CarouselText />
-          <Carousel />
-          <Contact />
-          <Footer/>
-        </m.div>
+        <Hero/>
+        <About/>
+        <Content/>
+        <Services/>
+        <ContentWithCTA/>
+        <Contact/>
       </LazyMotion>
+     
     </Layout>
-  );
+  )
 }

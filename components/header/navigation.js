@@ -20,7 +20,7 @@ export default function Navigation({ items, setOpen }) {
         initial={{opacity:0}}
         animate={{opacity:1,transition:{duration:.4,delay:1.7}}}
         onHoverEnd={() => setActiveIndex(null)}
-        className="flex space-x-3 font-neueLight"
+        className="flex space-x-3 font-montrealRegular text-black text-lg"
       >
         {items.map(({ route, url }, index) => {
           const isActive = index === activeIndex;
@@ -34,7 +34,7 @@ export default function Navigation({ items, setOpen }) {
               onClick={setOpen}
             >
               <Link to={url} smooth={true} duration={800} offset={-100}>
-                <span className="relative hover:text-gray-500 focus:text-gray-500 text-lg">
+                <span className="relative hover:text-palette-red focus:text-gray-500 text-base hover:cursor-pointer">
                   {isActive && (
                     <motion.span
                       layoutId="shadow"

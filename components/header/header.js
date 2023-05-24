@@ -8,7 +8,7 @@ import Logo from "./logo";
 import { useState, useEffect } from "react";
 import {
   motion,
-  AnimateSharedLayout,
+  LayoutGroup,
   AnimatePresence,
   useCycle,
 } from "framer-motion";
@@ -20,7 +20,6 @@ export default function Header() {
   const menuItems = [
     { route: "À Propos", url: "apropos" },
     { route: "Services", url: "services" },
-    { route: "Clients", url: "clients" },
     { route: "Contact", url: "contact" },
   ];
 
@@ -34,17 +33,17 @@ export default function Header() {
 
 
   return (
-    <header className="overflow-hidden bg-palette-blue fixed z-20  text-white w-full flex flex-col justify-center h-14 sm:h-16">
+    <header className="overflow-hidden bg-palette-white fixed z-20  text-white w-full flex flex-col justify-center h-14 sm:h-16">
       <Container extraClasses="Header-Section ">
         <div className="flex justify-between h-full ">
           <Logo style="w-10 sm:w-16 md:w-18" />
-          <AnimateSharedLayout>
+          <AnimatePresence>
             <Navigation
               items={menuItems}
               activeIndex={activeIndex}
               setActiveIndex={setActiveIndex}
             />
-          </AnimateSharedLayout>
+          </AnimatePresence>
           <Burger open={open} setOpen={setOpen} />
         </div>
       </Container>

@@ -31,7 +31,7 @@ export default function Menu({ open, items, setOpen }) {
       initial="closed"
       animate={open && "open"}
       exit="closed"
-      className="bg-palette-blue  text-white fixed left-0 top-0 w-full h-screen font-sans px-10 md:hidden pt-20">
+      className="bg-palette-white  text-black fixed left-0 top-0 w-full h-screen font-montrealRegular px-10 md:hidden pt-20">
       <motion.ul
         variants={stagger}
         className="flex flex-col justify-center h-5/6 overflow-hidden ">
@@ -40,7 +40,7 @@ export default function Menu({ open, items, setOpen }) {
             <motion.li
               key={index}
               variants={slideInLeft}
-              className="menu-overlay-item text-white text-6xl  md:text-7xl pt-10 hover:text-palette-orange "  >
+              className="menu-overlay-item text-black text-6xl  md:text-7xl pt-10 duration-100 ease-in-out hover:text-palette-red "  >
               <Link to={url} smooth={true} duration={800} delay={1000} offset={-50} onClick={setOpen}>
               {route}
               </Link>

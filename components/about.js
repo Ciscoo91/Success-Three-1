@@ -9,22 +9,21 @@ export default function About() {
     triggerOnce: true,
   });
 
-  const lineStyle = "font-futuraLight text-base sm:text-2xl 2xl:text-3xl";
+  const lineStyle = "text-2xl sm:text-2xl 2xl:text-3xl";
 
   const content = [
-    
-       <><span className="text-palette-orange">Chez AFM Motors</span>, nous sommes passionnés par les voitures et nous sommes fiers de fournir des services de réparation automobile professionnels et fiables à nos clients. 
-       "Nous sommes une entreprise familiale avec une longue histoire de service à la communauté locale.</>,
-
-       <>
-       Nous avons une équipe de <span className="text-palette-orange">mécaniciens qualifiés</span> et expérimentés qui peuvent prendre en charge tous les types de réparations et d'entretiens automobiles, des petites réparations aux révisions complètes.
-       </>,
-       <>
-       Nous nous engageons à offrir <span className="text-palette-orange">un service de qualité</span> supérieure à des prix abordables pour satisfaire les besoins de nos clients. Contactez-nous dès maintenant pour discuter de vos besoins automobiles et découvrir comment nous pouvons vous aider à prendre soin de votre voiture.
-       </>
-      
-    
-    
+    <>
+      Success Three is a premier service provider specializing in consultancy and operational support. Our expertise extends to both our own operations and those of our valued clients. With a focus on comprehensive services, we excel in various areas, including general trade, investment studies, market agency, business opportunities, and economic, accounting, tax, legal, judicial, and fiduciary consultation. We offer expert management advisory services, bookkeeping, accounting, financial analysis, personnel placement, and administration.
+    </>,
+    <>
+      In addition to our consultancy services, Success Three engages in the purchase and sale of mining products and undertakes construction projects, including road rehabilitation. Our company is committed to delivering exceptional results and ensuring client satisfaction in every endeavor.
+    </>,
+    <>
+      Driven by a passion for excellence, Success Three actively seeks out and explores diverse opportunities that align with our core mission. We are authorized to undertake all financial and commercial activities directly or indirectly related to our primary objective.
+    </>,
+    <>
+      At Success Three, we pride ourselves on providing transformative solutions, personalized attention, and reliable support to help our clients thrive in an ever-evolving business landscape. With our comprehensive range of services and unwavering dedication, we are your trusted partner on the path to success.
+    </>,
   ];
 
   const listVariants = {
@@ -52,20 +51,32 @@ export default function About() {
   };
 
   return (
-    <Container extraClasses="About-Container py-16 text-palette-blue relative md:py-24 lg:py-36" id="apropos" >
-      <motion.ul
-        ref={ref}
-        className="grid grid-cols-1 gap-y-10 font-thin text-center mx-auto sm:max-w-[80%]"
-        variants={listVariants}
-        initial="hidden"
-        animate={inView ? "visible" : "hidden"}
-      >
-        {content.map((item, index) => (
-          <motion.li key={index} variants={listItemVariants} className={lineStyle}>
-            {item}
-          </motion.li>
-        ))}
-      </motion.ul>
+    <Container extraClasses="About-Container">
+      <div className="flex flex-col md:grid md:grid-cols-3  py-16  relative md:py-24 lg:py-36 " id="apropos">
+        <div>
+          <p className="text-palette-red font-montrealRegular">About us</p>
+        <motion.h4 variants={listItemVariants} animate={inView ? "visible" : "hidden"} className={`${lineStyle} font-montrealMedium max-w-[280px] mt-4 md:w-[400px] md:mt-4`}>
+          Discover the Story of Success Three
+        </motion.h4>
+        </div>
+        <motion.ul
+          ref={ref}
+          className="mt-12 col-span-2 grid grid-cols-1 gap-y-8 font-thin"
+          variants={listVariants}
+          initial="hidden"
+          animate={inView ? "visible" : "hidden"}
+        >
+          {content.map((item, index) => (
+            <motion.li
+              key={index}
+              variants={listItemVariants}
+              className="text-base sm:text-lg md:text-xl font-montrealRegular"
+            >
+              {item}
+            </motion.li>
+          ))}
+        </motion.ul>
+      </div>
     </Container>
   );
 }

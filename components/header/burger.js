@@ -6,7 +6,7 @@ export default function Burger({ open, setOpen }) {
     <motion.button
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.4, delay: 1.7 } }}
-      className={`menu-button md:hidden z-20 relative w-8 + text-white`}
+      className={`menu-button md:hidden z-20 relative w-8 + text-black`}
       onClick={setOpen}
     >
       <span
