@@ -1,0 +1,187 @@
+/*****
+******
+Google Fonts
+******
+******
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+/*****
+******
+Neue Hass Grotesk
+******
+******
+*/
+@font-face {
+  font-family: "Neue-Black";
+  src: url("../public/fonts/Neue/NeueHaasGroteskDisplay-Black.woff2")
+      format("woff2"),
+    url("../public/fonts/Neue/NeueHaasGroteskDisplay-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue-Regular";
+  src: url("../public/fonts/Neue/NeueHaasGroteskDisplay-Reg.woff2")
+      format("woff2"),
+    url("../public/fonts/Neue/NeueHaasGroteskDisplay-Reg.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue-Light";
+  src: url("../public/fonts/Neue/NeueHaasGroteskDisplay-Light.woff2")
+      format("woff2"),
+    url("../public/fonts/Neue/NeueHaasGroteskDisplay-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue-Bold";
+  src: url("../public/fonts/Neue/NeueHaasGroteskDisplay-Bold.woff2")
+      format("woff2"),
+    url("../public/fonts/Neue/NeueHaasGroteskDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue-Medium";
+  src: url("../public/fonts/Neue/NeueHaasGroteskDisplay-Medium.woff2")
+      format("woff2"),
+    url("../public/fonts/Neue/NeueHaasGroteskDisplay-Medium.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue-Thin";
+  src: url("../public/fonts/Neue/NeueHaasGroteskDisplay-Thin.woff2")
+      format("woff2"),
+    url("../public/fonts/Neue/NeueHaasGroteskDisplay-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*****
+******
+FUTURA
+******
+******
+*/
+
+@font-face {
+  font-family: "Futura-Light";
+  src: url("../public/fonts/Futura/FuturaPT-Light.woff2") format("woff2"),
+    url("../public/fonts/Futura/FuturaPT-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("../public/fonts/Futura/FuturaPT-Medium.woff2") format("woff2"),
+    url("../public/fonts/Futura/FuturaPT-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: fallback;
+}
+
+
+
+
+
+/*****
+******
+SUISSE
+******
+******
+*/
+
+
+
+@font-face {
+    font-family: 'Suisse-Bold';
+    src: url('../public/fonts/Suisse/SuisseIntl-Bold.woff2') format('woff2'),
+        url('../public/fonts/Suisse/SuisseIntl-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse-Medium';
+    src: url('../public/fonts/Suisse/SuisseIntl-Medium.woff2') format('woff2'),
+        url('../public/fonts/Suisse/SuisseIntl-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse-Light';
+    src: url('../public/fonts/Suisse/SuisseIntl-Light.woff2') format('woff2'),
+        url('../public/fonts/Suisse/SuisseIntl-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse-Black';
+    src: url('../public/fonts/Suisse/SuisseIntl-Black.woff2') format('woff2'),
+        url('../public/fonts/Suisse/SuisseIntl-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse-Thin';
+    src: url('../public/fonts/Suisse/SuisseIntl-Thin.woff2') format('woff2'),
+        url('../public/fonts/Suisse/SuisseIntl-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Suisse-Book';
+    src: url('../public/fonts/Suisse/SuisseIntl-Book.woff2') format('woff2'),
+        url('../public/fonts/Suisse/SuisseIntl-Book.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse-Ultralight';
+    src: url('../public/fonts/Suisse/SuisseIntl-Ultralight.woff2') format('woff2'),
+        url('../public/fonts/Suisse/SuisseIntl-Ultralight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse-Regular';
+    src: url('../public/fonts/Suisse/SuisseIntl-Regular.woff2') format('woff2'),
+        url('../public/fonts/Suisse/SuisseIntl-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

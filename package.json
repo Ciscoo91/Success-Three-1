@@ -1,0 +1,46 @@
+{
+  "name": "350Lab",
+  "description": "350lab landing page",
+  "author": "350lab",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Jmmpoy/350lab-v2.git"
+  },
+  "license": "ISC",
+  "keywords": [
+    "nextjs",
+    "next",
+    "tailwind",
+    "framer",
+    "motion",
+    "preact"
+  ],
+  "homepage": "https://www.350lab.com/",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "tailwind-config-viewer": "tailwind-config-viewer -o"
+  },
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "framer-motion": "^4.1.17",
+    "next": "^12.0.8",
+    "next-images": "^1.8.1",
+    "next-seo": "^4.26.0",
+    "postcss-import": "^14.0.0",
+    "postcss-nested": "^5.0.5",
+    "postcss-preset-env": "^6.7.0",
+    "preact": "^10.5.13",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-intersection-observer": "^9.4.0",
+    "react-scroll": "^1.8.9"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.13"
+  }
+}
