@@ -1,7 +1,7 @@
 export default {
-  defaultTitle: 'AFM Motors',
-  description: 'Chez AFM Motors, nous sommes fiers de fournir des services de réparation automobile professionnels et fiables à nos clients, des petites réparations aux révisions complètes, grâce à une équipe, de mécaniciens qualifiés et expérimentés.',
-  titleTemplate: 'AFM Motors',
+  defaultTitle: 'Success Three',
+  description: 'Where innovation, strategy converge to propel", "your business to new heights.',
+  titleTemplate: 'Success Three',
   openGraph: {
     type: 'website',
     locale: 'en_GB',
