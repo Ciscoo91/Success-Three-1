@@ -148,7 +148,7 @@ export default function Hero() {
           src={heroImage.src}
           alt="bg"
         />
-        <div className="absolute top-0 w-screen h-screen bg-black opacity-70" />
+        <div className="absolute top-0 w-screen h-screen bg-palette-blue opacity-70" />
 
       </motion.div>
     </div>
