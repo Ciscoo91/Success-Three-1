@@ -23,10 +23,10 @@ export default function Hero() {
   };
 
   const titleLines = [
-    "Unleash Success",
+    "Success Three",
   ];
   const textLines = [
-    "Where innovation, strategy converge to propel", "your business to new heights."
+    "Success Three is a premier service provider specializing in consultancy and operational support.", "Our expertise extends to both our own operations and those of our valued clients.", "With a focus on comprehensive services, we excel in various areas..."
   ];
 
 
@@ -62,6 +62,7 @@ export default function Hero() {
               <motion.ul
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1, transition: { delay: 1 } }}
+                className="my-6"
               >
                 {textLines.map((line, i) => {
                   const isFirst = i === 0 ? "mt-4 " : "mt-0";
@@ -97,26 +98,27 @@ export default function Hero() {
               <motion.button
                 type="button"
                 whileHover={{ scale: 1.1 }} // Scale the element on hover
-                className=" text-black  absolute cursor-pointer    text-opacity-100 bg-white bg-opacity-100 font-medium rounded-[30px] text-sm h-[48px] w-[150px] sm:w-40 sm:text-lg  px-5 py-2.5 mr-2 mb-2  hover:transition duration-100 ease-in-out"
+                className=" text-black  absolute cursor-pointer    text-opacity-100 bg-white bg-opacity-100 font-medium rounded-[30px] text-sm h-[48px] sm:text-lg  px-5 py-2.5 mr-2 mb-2 mt-6 hover:transition duration-100 ease-in-out"
               >
-                <div className="flex justify-between w-auto">
-                  <Link to="apropos" smooth={true} duration={800}>
-                    Find More
-                  </Link>
-                  <svg
-                    className="self-center ml-2"
-                    width="20"
-                    height="12"
-                    viewBox="0 0 21 12"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M19.9424 5.5711L14.8279 0.0998802C14.704 -0.0302057 14.4925 -0.0311413 14.3733 0.084753C14.2521 0.202513 14.2432 0.418693 14.3583 0.542439L18.9634 5.47055L1.16243 5.47055C0.985884 5.47055 0.842773 5.61464 0.842773 5.79239C0.842773 5.97014 0.985884 6.11423 1.16243 6.11423L18.9634 6.11423L14.3583 11.0424C14.2432 11.1661 14.2502 11.3842 14.3733 11.5C14.4962 11.6159 14.694 11.6188 14.8279 11.4849L19.9424 6.01369C20.064 5.86307 20.032 5.67846 19.9424 5.5711Z"
-                      fill="black"
-                    />
-                  </svg>
-                </div>
+                <Link to="apropos" smooth={true} duration={800}>
+                  <div className="flex justify-between w-auto">
+                      Learn More
+                    
+                    <svg
+                      className="self-center ml-2"
+                      width="20"
+                      height="12"
+                      viewBox="0 0 21 12"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M19.9424 5.5711L14.8279 0.0998802C14.704 -0.0302057 14.4925 -0.0311413 14.3733 0.084753C14.2521 0.202513 14.2432 0.418693 14.3583 0.542439L18.9634 5.47055L1.16243 5.47055C0.985884 5.47055 0.842773 5.61464 0.842773 5.79239C0.842773 5.97014 0.985884 6.11423 1.16243 6.11423L18.9634 6.11423L14.3583 11.0424C14.2432 11.1661 14.2502 11.3842 14.3733 11.5C14.4962 11.6159 14.694 11.6188 14.8279 11.4849L19.9424 6.01369C20.064 5.86307 20.032 5.67846 19.9424 5.5711Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </div>
+                </Link>
               </motion.button>
             </motion.div>
           </div>

@@ -62,7 +62,7 @@ export default function Services() {
     <Container extraClasses="About-Container">
       <div className="flex flex-col md:grid md:grid-cols-3  py-16  relative md:py-24 lg:py-36 " id="services">
         <div className="">
-            <p className="text-palette-red font-montrealRegular">Services</p>
+            <p className="text-palette-blue font-montrealRegular">Services</p>
             <motion.h4 variants={listItemVariants} className={`${lineStyle} font-montrealMedium max-w-[280px] mt-4 md:w-[400px] md:mt-4`}>
             Empowering Success Through Expertise
             </motion.h4>
@@ -81,7 +81,7 @@ export default function Services() {
               className="text-base sm:text-lg md:text-xl font-montrealRegular"
             >
               <div className="">
-                <img className="w-6 h-8 mb-8" src={item.imageUrl} alt={`${item.title} icon`} />
+                <img className="w-9 h-11 mb-8" src={item.imageUrl} alt={`${item.title} icon`} />
                 <span className="font-semibold text-xl">{item.title}</span>
                 <p className="mt-8">{item.text}</p>
               </div>

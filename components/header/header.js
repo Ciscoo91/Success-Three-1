@@ -33,7 +33,7 @@ export default function Header() {
 
 
   return (
-    <header className="overflow-hidden bg-palette-white fixed z-20  text-white w-full flex flex-col justify-center h-14 sm:h-16">
+    <header className="overflow-hidden bg-palette-white fixed z-20  text-white w-full flex flex-col justify-center md:h-24 h-20">
       <Container extraClasses="Header-Section ">
         <div className="flex justify-between h-full ">
           <Logo style="w-10 sm:w-16 md:w-18" />

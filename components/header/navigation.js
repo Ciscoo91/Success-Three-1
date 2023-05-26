@@ -34,7 +34,7 @@ export default function Navigation({ items, setOpen }) {
               onClick={setOpen}
             >
               <Link to={url} smooth={true} duration={800} offset={-100}>
-                <span className="relative hover:text-palette-red focus:text-gray-500 text-base hover:cursor-pointer">
+                <span className="relative text-palette-blue focus:text-gray-500 text-base hover:cursor-pointer">
                   {isActive && (
                     <motion.span
                       layoutId="shadow"
@@ -47,7 +47,10 @@ export default function Navigation({ items, setOpen }) {
                       }}
                     />
                   )}
-                  <span>{route}</span>
+                  <span className="text-xl group">{route}
+                    <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-palette-blue"></span>
+                  </span>
+                  
                 </span>
               </Link>
             </motion.li>

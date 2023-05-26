@@ -54,7 +54,7 @@ export default function About() {
     <Container extraClasses="About-Container">
       <div className="flex flex-col md:grid md:grid-cols-3  py-16  relative md:py-24 lg:py-36 " id="apropos">
         <div>
-          <p className="text-palette-red font-montrealRegular">About us</p>
+          <p className="text-palette-blue font-montrealRegular">About us</p>
         <motion.h4 variants={listItemVariants} animate={inView ? "visible" : "hidden"} className={`${lineStyle} font-montrealMedium max-w-[280px] mt-4 md:w-[400px] md:mt-4`}>
           Discover the Story of Success Three
         </motion.h4>
