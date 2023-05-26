@@ -42,7 +42,7 @@ export default function Contact() {
         id="contact"
       >
          <p className="text-palette-blue font-montrealRegular">Contact</p>
-        <div className="mt-12 contact-row grid grid-cols-1 row-span-2 gap-10 md:grid-cols-3  col-span-2   md:gap-20-10 items-center w-full">
+        <div className="mt-12 contact-row grid grid-cols-1 row-span-2 gap-10 md:grid-cols-3  col-span-2   md:gap-20 md:gap-x-5 items-center w-full">
           {items.map(({ title, text, subtext, icon,link }, i) => (
             <motion.div 
                 ref={ref}

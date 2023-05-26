@@ -40,10 +40,11 @@ export default function Menu({ open, items, setOpen }) {
             <motion.li
               key={index}
               variants={slideInLeft}
-              className="menu-overlay-item text-black text-6xl  md:text-7xl pt-10 duration-100 ease-in-out hover:text-palette-red "  >
+              className="group menu-overlay-item text-palette-blue text-6xl  md:text-7xl pt-10 duration-100 ease-in-out"  >
               <Link to={url} smooth={true} duration={800} delay={1000} offset={-50} onClick={setOpen}>
               {route}
               </Link>
+              <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-palette-blue"></span>
             </motion.li>
           );
         })}
