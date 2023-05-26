@@ -53,7 +53,7 @@ export default function Contact() {
                 className="w-full xsl:w-6/12 text-white flex flex-col items-center md:items-start"
               >
                 {icon}
-              {title && <h4 className="text-2xl font-montrealMedium mt-4 mb-3 text-black">
+              {title && <h4 className="text-2xl font-montrealMedium mt-4 mb-3 text-palette-blue">
                 {title}
               </h4>}
               {text && <p className="font-montrealRegular mt-1 text-black  xl:text-md ">{text}</p>}

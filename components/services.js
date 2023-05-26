@@ -82,7 +82,7 @@ export default function Services() {
             >
               <div className="">
                 <img className="w-9 h-11 mb-8" src={item.imageUrl} alt={`${item.title} icon`} />
-                <span className="font-semibold text-xl">{item.title}</span>
+                <span className="font-semibold text-xl text-palette-blue">{item.title}</span>
                 <p className="mt-8">{item.text}</p>
               </div>
             </motion.li>
