@@ -8,9 +8,7 @@ import { fade } from "../helpers/transitions";
 import { Link } from "react-scroll";
 import Image from "next/image";
 import heroImage from "../public/images/hero-image.webp";
-import MyGallery from "./carousel";
-
-import HeroGallery from "./gallery";
+import HeroGallery from './HeroGallery';
 
 export default function Hero() {
   const delay = (i) => {
@@ -146,15 +144,13 @@ export default function Hero() {
         }}
       >
 
-        {/* <img
-          style={{ minWidth: "100%", height: "100%" }}
-          src={heroImage.src}
-          alt="bg"
-        /> */}
-        <HeroGallery />
-        {/* <MyGallery/> */}
+       
+       
         
-        <div className="absolute top-0 w-screen h-full bg-palette-blue opacity-70" />
+        
+        <div className="absolute top-0 w-screen h-full  opacity-70">
+        <HeroGallery />
+        </div>
 
       </motion.div>
     </div>
