@@ -62,7 +62,7 @@ const testItems = [
       },
       {
         title: "Matadi",
-        text: "Av. KINKANDA n°36",
+        text: "36 Avenue KINKANDA",
       },
     ]
   }

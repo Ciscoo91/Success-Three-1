@@ -29,9 +29,9 @@ export default function Services() {
             "imageUrl": "pexels-antoni-shkraba-5816296.jpg"
         },
         {
-            "title": "Financial Analysis and Investment Studies",
+            "title": "Financial Analysis & Investment Studies",
             "text": "Success Three offers in-depth financial analysis and investment studies to assist clients in making informed decisions. Our team analyzes market trends, evaluates investment opportunities, and provides comprehensive reports to support clients in maximizing their financial potential.",
-            "imageUrl": "pexels-pixabay-534220.jpg"
+            "imageUrl": "pexels-yan-krukau-7693229.jpg"
         },
         {
             "title": "Personnel Placement and Management",
@@ -41,8 +41,8 @@ export default function Services() {
         {
             "title": "Construction and Road Rehabilitation",
             "text": "Success Three undertakes construction projects, including the rehabilitation of roads. With expertise in the construction industry, we provide efficient project management, quality control, and timely completion of construction projects.",
-            "imageUrl": "pexels-yan-krukau-7693229.jpg"
-        }
+            "imageUrl": "pexels-pixabay-534220.jpg"
+        },
     ]
 
   const listVariants = {
@@ -88,29 +88,18 @@ export default function Services() {
     setIsOpen(false);
   }
 
-  const customStyles = {
-    content: {
-      top: '50%',
-      left: '50%',
-      right: 'auto',
-      bottom: 'auto',
-      marginRight: '-50%',
-      transform: 'translate(-50%, -50%)',
-    },
-  };
-
   return (
     <Container extraClasses="About-Container">
       <div className="flex flex-col items-center py-28 relative lg:py-36" id="services">
-        <div className="mb-6 self-start">
-            <p className="text-palette-blue font-montrealRegular">Services</p>
+        <div className="mb-6 w-full flex flex-col">
+            <p className="text-palette-blue font-montrealRegular self-start">Services</p>
             <motion.h4 variants={listItemVariants} className={`${lineStyle} font-montrealMedium  mt-4  md:mt-4 text-center`}>
             Empowering Success Through Expertise
             </motion.h4>
         </div>
         <motion.ul
           ref={ref}
-          className="mt-12 grid grid-cols-1 md:grid-cols-2  gap-10 font-thin"
+          className="mt-12 grid grid-cols-1 md:grid-cols-2 h-fit  gap-20 font-thin md:w-3/4"
           variants={listVariants}
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
@@ -129,7 +118,7 @@ export default function Services() {
                 <span className="font-semibold text-xl text-palette-blue">{item.title}</span>
                 <p className="mt-8">{item.text}</p>
               </div> */}
-              <div className="max-w-sm rounded overflow-hidden shadow-lg hover:cursor-pointer hover:bg-blue-100">
+              <div className="max-w-sm rounded overflow-hidden shadow-sm hover:cursor-pointer hover:bg-blue-100">
                 <img className="w-full" src={item.imageUrl} alt="Sunset in the mountains" />
                 <div className="px-6 py-4">
                   <div className="font-bold text-xl mb-2">{item.title}</div>
@@ -146,7 +135,6 @@ export default function Services() {
         isOpen={modalIsOpen}
         onAfterOpen={afterOpenModal}
         onRequestClose={closeModal}
-        contentLabel="Example Modal"
         className={`w-3/4`}
       >
           <motion.div 
