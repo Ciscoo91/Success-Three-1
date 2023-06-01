@@ -21,8 +21,6 @@ export default function Home() {
         <Hero/>
         <About/>
         <Content/>
-        <Services/>
-        <ContentWithCTA/>
         <Contact/>
       </LazyMotion>
      

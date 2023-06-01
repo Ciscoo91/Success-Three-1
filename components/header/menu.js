@@ -1,7 +1,8 @@
 import React from "react";
 import { slideInLeft, stagger } from "../../helpers/transitions";
 import { motion } from "framer-motion";
-import {Link} from "react-scroll"
+// import {Link} from "react-scroll"
+import Link from "next/link"
 
 
 
@@ -41,7 +42,7 @@ export default function Menu({ open, items, setOpen }) {
               key={index}
               variants={slideInLeft}
               className="group menu-overlay-item text-palette-blue text-6xl  md:text-7xl pt-10 duration-100 ease-in-out"  >
-              <Link to={url} smooth={true} duration={800} delay={1000} offset={-50} onClick={setOpen}>
+              <Link href={url} smooth={true} duration={800} delay={1000} offset={-50} onClick={setOpen}>
               {route}
               </Link>
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-palette-blue"></span>

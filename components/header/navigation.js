@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { Link } from "react-scroll"
+// import { Link } from "react-scroll"
+import Link from "next/link"
 
 
 
@@ -33,7 +34,7 @@ export default function Navigation({ items, setOpen }) {
               animate="visible"
               onClick={setOpen}
             >
-              <Link to={url} smooth={true} duration={800} offset={-100}>
+              <Link href={url} smooth={true} duration={800} offset={-100}>
                 <span className="relative text-palette-blue focus:text-gray-500 text-base hover:cursor-pointer">
                   {isActive && (
                     <motion.span

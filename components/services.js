@@ -3,6 +3,16 @@ import Container from "./container";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
+
+function sliceStringByCharacters(string, numCharacters) {
+  if (string.length <= numCharacters) {
+    return string;
+  } else {
+    return string.slice(0, numCharacters) + "...";
+  }
+}
+
+
 export default function Services() {
   const [ref, inView] = useInView({
     threshold: 0.3,
@@ -15,22 +25,22 @@ export default function Services() {
         {   
             "title": "Consultancy and Advisory Services",
             "text": "Success Three provides expert guidance and operational assistance in various areas, including economic, accounting, tax, legal, judicial, and fiduciary matters. Clients can rely on our experienced consultants for strategic advice, management consultancy, and comprehensive solutions tailored to their specific needs.",
-            "imageUrl": "assets/icons/conference_meeting_discussion_presentation_strategy_icon.svg"
+            "imageUrl": "pexels-antoni-shkraba-5816296.jpg"
         },
         {
             "title": "Financial Analysis and Investment Studies",
             "text": "Success Three offers in-depth financial analysis and investment studies to assist clients in making informed decisions. Our team analyzes market trends, evaluates investment opportunities, and provides comprehensive reports to support clients in maximizing their financial potential.",
-            "imageUrl": "assets/icons/consultation_profit_garph_success_graph_icon.svg"
+            "imageUrl": "pexels-pixabay-534220.jpg"
         },
         {
             "title": "Personnel Placement and Management",
             "text": "Success Three specializes in personnel placement and management solutions. We help businesses identify and recruit talented professionals suitable for their specific requirements. Our services include candidate sourcing, screening, and placement to ensure the right fit for long-term success.",
-            "imageUrl": "assets/icons/consultation_money_income_profit_budget_icon.svg"
+            "imageUrl": "pexels-yan-krukau-7640741.jpg"
         },
         {
             "title": "Construction and Road Rehabilitation",
             "text": "Success Three undertakes construction projects, including the rehabilitation of roads. With expertise in the construction industry, we provide efficient project management, quality control, and timely completion of construction projects.",
-            "imageUrl": "assets/icons/architecture_building_business_construction_crane_icon.svg"
+            "imageUrl": "pexels-yan-krukau-7693229.jpg"
         }
     ]
 
@@ -60,16 +70,16 @@ export default function Services() {
 
   return (
     <Container extraClasses="About-Container">
-      <div className="flex flex-col md:grid md:grid-cols-3  py-16  relative md:py-24 lg:py-36 " id="services">
-        <div className="">
+      <div className="flex flex-col items-center py-28 relative lg:py-36" id="services">
+        <div className="mb-6 self-start">
             <p className="text-palette-blue font-montrealRegular">Services</p>
-            <motion.h4 variants={listItemVariants} className={`${lineStyle} font-montrealMedium max-w-[280px] mt-4 md:w-[400px] md:mt-4`}>
+            <motion.h4 variants={listItemVariants} className={`${lineStyle} font-montrealMedium  mt-4  md:mt-4 text-center`}>
             Empowering Success Through Expertise
             </motion.h4>
         </div>
         <motion.ul
           ref={ref}
-          className="mt-12 grid grid-cols-1 md:grid-cols-2 md:col-span-2 gap-10 font-thin"
+          className="mt-12 grid grid-cols-1 md:grid-cols-2  gap-10 font-thin"
           variants={listVariants}
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
@@ -80,10 +90,19 @@ export default function Services() {
               variants={listItemVariants}
               className="text-base sm:text-lg md:text-xl font-montrealRegular"
             >
-              <div className="">
+              {/* <div className="">
                 <img className="w-9 h-11 mb-8" src={item.imageUrl} alt={`${item.title} icon`} />
                 <span className="font-semibold text-xl text-palette-blue">{item.title}</span>
                 <p className="mt-8">{item.text}</p>
+              </div> */}
+              <div className="max-w-sm rounded overflow-hidden shadow-lg hover:cursor-pointer hover:bg-blue-100">
+                <img className="w-full" src={item.imageUrl} alt="Sunset in the mountains" />
+                <div className="px-6 py-4">
+                  <div className="font-bold text-xl mb-2">{item.title}</div>
+                  <p className="text-gray-700 text-base">
+                    {sliceStringByCharacters(item.text, 100)}
+                  </p>
+                </div>
               </div>
             </motion.li>
           ))}
