@@ -148,7 +148,7 @@ export default function Hero() {
        
         
         
-        <div className="absolute top-0 w-screen h-full  opacity-70">
+        <div className="absolute top-0 w-screen h-full bg-palette-blue opacity-50">
         <HeroGallery />
         </div>
 

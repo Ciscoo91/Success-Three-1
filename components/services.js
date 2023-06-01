@@ -29,9 +29,9 @@ export default function Services() {
             "imageUrl": "pexels-antoni-shkraba-5816296.jpg"
         },
         {
-            "title": "Financial Analysis & Investment Studies",
-            "text": "Success Three offers in-depth financial analysis and investment studies to assist clients in making informed decisions. Our team analyzes market trends, evaluates investment opportunities, and provides comprehensive reports to support clients in maximizing their financial potential.",
-            "imageUrl": "pexels-yan-krukau-7693229.jpg"
+            "title": "Construction and Road Rehabilitation",
+            "text": "Success Three undertakes construction projects, including the rehabilitation of roads. With expertise in the construction industry, we provide efficient project management, quality control, and timely completion of construction projects.",
+            "imageUrl": "pexels-pixabay-534220.jpg"
         },
         {
             "title": "Personnel Placement and Management",
@@ -39,9 +39,9 @@ export default function Services() {
             "imageUrl": "pexels-yan-krukau-7640741.jpg"
         },
         {
-            "title": "Construction and Road Rehabilitation",
-            "text": "Success Three undertakes construction projects, including the rehabilitation of roads. With expertise in the construction industry, we provide efficient project management, quality control, and timely completion of construction projects.",
-            "imageUrl": "pexels-pixabay-534220.jpg"
+            "title": "Financial Analysis & Investment Studies",
+            "text": "Success Three offers in-depth financial analysis and investment studies to assist clients in making informed decisions. Our team analyzes market trends, evaluates investment opportunities, and provides comprehensive reports to support clients in maximizing their financial potential.",
+            "imageUrl": "pexels-yan-krukau-7693229.jpg"
         },
     ]
 
@@ -118,7 +118,7 @@ export default function Services() {
                 <span className="font-semibold text-xl text-palette-blue">{item.title}</span>
                 <p className="mt-8">{item.text}</p>
               </div> */}
-              <div className="max-w-sm rounded overflow-hidden shadow-sm hover:cursor-pointer hover:bg-blue-100">
+              <div className="max-w-md rounded mr-0 overflow-hidden shadow-sm hover:cursor-pointer hover:bg-blue-100">
                 <img className="w-full" src={item.imageUrl} alt="Sunset in the mountains" />
                 <div className="px-6 py-4">
                   <div className="font-bold text-xl mb-2">{item.title}</div>

@@ -115,7 +115,7 @@ export default function Contact() {
                 testItems.map((item, index) => (
                   <div key={index} className="grid grid-cols-1 md:grid-cols-3 w-full h-full mb-20">
                     <div className="">
-                      <h4 className="text-black text-4xl mb-4">{item.title}</h4>
+                      <h4 className="text-black text-3xl mb-4">{item.title}</h4>
                       <p className="text-black">{item.subtext}</p>
                     </div>
                     <div className="col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4">
