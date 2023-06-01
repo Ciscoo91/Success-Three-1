@@ -1,7 +1,8 @@
-import React, { forwardRef } from "react";
+import React, { useState } from "react";
 import Container from "./container";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import Modal from "react-modal"
 
 
 function sliceStringByCharacters(string, numCharacters) {
@@ -68,6 +69,36 @@ export default function Services() {
     },
   };
 
+  let subtitle;
+
+  const [modalIsOpen, setIsOpen] = useState(false);
+  const [currentContent, setCurrentContent] = useState("")
+
+  function openModalAndSetCurrentContent(item) {
+    setIsOpen(true);
+    setCurrentContent(item)
+  }
+
+  function afterOpenModal() {
+    // references are now sync'd and can be accessed.
+    subtitle.style.color = '#f00';
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
+
+  const customStyles = {
+    content: {
+      top: '50%',
+      left: '50%',
+      right: 'auto',
+      bottom: 'auto',
+      marginRight: '-50%',
+      transform: 'translate(-50%, -50%)',
+    },
+  };
+
   return (
     <Container extraClasses="About-Container">
       <div className="flex flex-col items-center py-28 relative lg:py-36" id="services">
@@ -89,6 +120,9 @@ export default function Services() {
               key={index}
               variants={listItemVariants}
               className="text-base sm:text-lg md:text-xl font-montrealRegular"
+              onClick={() => {
+                openModalAndSetCurrentContent(item)
+              }}
             >
               {/* <div className="">
                 <img className="w-9 h-11 mb-8" src={item.imageUrl} alt={`${item.title} icon`} />
@@ -108,6 +142,39 @@ export default function Services() {
           ))}
         </motion.ul>
       </div>
+      <Modal
+        isOpen={modalIsOpen}
+        onAfterOpen={afterOpenModal}
+        onRequestClose={closeModal}
+        contentLabel="Example Modal"
+        className={`w-3/4`}
+      >
+          <motion.div 
+          className="fixed inset-0 z-30 overflow-y-auto md:w-full"
+          initial={{y:-100, opacity: 0}}
+          animate={{y:0, opacity: 1}}
+          exit={{y: 300, opacity: 0}}
+          transition={{ease: "easeOut", duration: 0.5}}
+        >
+          <div ref={(_subtitle) => (subtitle = _subtitle)} className="flex min-h-full  items-end justify-center p-4 text-center sm:items-center sm:p-0" onClick={closeModal}>
+            
+            <div className="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg  mt-8">
+              <div className="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
+                <img className="w-full" src={currentContent.imageUrl} alt="Sunset in the mountains" />
+                <div className="px-6 py-4">
+                  <div className="font-bold text-palette-blue text-xl mb-2">{currentContent.title}</div>
+                  <p className="text-gray-700 text-base">
+                    {currentContent.text}
+                  </p>
+                </div>
+              </div>
+              <div className="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
+                <button type="button" className="mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:mt-0 sm:w-auto" onClick={closeModal}>Close</button>
+              </div>
+            </div>
+          </div>
+        </motion.div>
+      </Modal>
     </Container>
   );
 }

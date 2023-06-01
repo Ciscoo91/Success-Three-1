@@ -120,7 +120,7 @@ export default function Contact() {
                     </div>
                     <div className="col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4">
                       {item.subItems.map((itm, i)=>(
-                        <div className=" py-8 px-10 rounded bg-neutral-100 ">
+                        <div className=" py-8 px-10 rounded bg-neutral-100 " key={i}>
                           <h5 className="text-2xl text-palette-blue mb-4">{itm.title}</h5>
                           <p className="text-xl text-gray-600">{itm.text}</p>
                         </div>
