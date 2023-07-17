@@ -2,15 +2,15 @@ import React, { useState, useEffect } from "react";
 
 const images = [
   {
-    original: "https://picsum.photos/id/668/1000/600/",
+    original: "images/christina-wocintechchat-com-0Nfqp0WiJqc-unsplash.jpg",
     thumbnail: "https://picsum.photos/id/668/250/150/",
   },
   {
-    original: "https://picsum.photos/id/802/1000/600/",
+    original: "images/uk-black-tech-dfmsZyFVi_I-unsplash.jpg",
     thumbnail: "https://picsum.photos/id/802/250/150/",
   },
   {
-    original: "https://picsum.photos/id/60/1000/600/",
+    original: "images/uk-black-tech-uZyE3w7khzw-unsplash.jpg",
     thumbnail: "https://picsum.photos/id/60/250/150/",
   },
 ];
