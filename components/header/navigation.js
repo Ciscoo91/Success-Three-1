@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 // import { Link } from "react-scroll"
 import Link from "next/link"
-
+import {useTranslation} from "react-i18next"
 
 
 const navItemVariants = {
@@ -14,6 +14,7 @@ const navItemVariants = {
 
 export default function Navigation({ items, setOpen }) {
   const [activeIndex, setActiveIndex] = useState(null);
+  const {t} = useTranslation()
 
   return (
     <motion.nav className="hidden md:flex justify-end items-center  w-full  md:w-auto">
@@ -48,7 +49,7 @@ export default function Navigation({ items, setOpen }) {
                       }}
                     />
                   )}
-                  <span className="text-xl group">{route}
+                  <span className="text-xl group">{t(`nav.${index}.route`)}
                     <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-palette-blue"></span>
                   </span>
                   

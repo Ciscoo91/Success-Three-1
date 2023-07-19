@@ -9,8 +9,16 @@ import { Link } from "react-scroll";
 import Image from "next/image";
 import heroImage from "../public/images/hero-image.webp";
 import HeroGallery from './HeroGallery';
+import en from "../lng/en.json"
+import fr from "../lng/fr.json"
+
+
+import { useTranslation } from "react-i18next";
 
 export default function Hero() {
+
+  const {t} = useTranslation()
+
   const delay = (i) => {
     if (i === 0) {
       return 0.5;
@@ -54,7 +62,7 @@ export default function Hero() {
                         }}
                         className="text-3xl font-montrealMedium text-white  text-opacity-100 mb-0  sm:text-4xl md:text-5xl lg:text-6xl"
                       >
-                        {line}
+                        {t(`hero.title`)}
                       </motion.h1>
                     </m.div>
                   );
@@ -81,7 +89,7 @@ export default function Hero() {
                         }}
                         className={`${isFirst} text-[13px] font-montrealRegular hero-content mx-auto   text-opacity-100  text-white  mb-0 w-12/12      md:leading-normal md:text-xl  lg:text-2xl   `}
                       >
-                        {line}
+                        {t(`hero.textLines.${i}.line`)}
                       </motion.li>
                     </motion.div>
                   );
@@ -103,7 +111,7 @@ export default function Hero() {
               >
                 <Link to="apropos" smooth={true} duration={800}>
                   <div className="flex justify-between w-auto">
-                      Learn More
+                      {t('hero.callToAction')}
                     
                     <svg
                       className="self-center ml-2"

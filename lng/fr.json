@@ -1,0 +1,155 @@
+{
+    "nav": [
+        { "route": "Accueil", "url": "/" },
+        { "route": "Services", "url": "services" },
+        { "route": "Mentions légales", "url": "legal" }
+    ],
+    "hero": {
+        "title": "Success Three",
+        "textLines" : [
+            {"line": "Success Three est un fournisseur de services de premier plan spécialisé dans le conseil et le soutien opérationnel."}, 
+            {"line":"Notre expertise s'étend à la fois à nos propres opérations et à celles de nos clients précieux."}, 
+            {"line":"Avec un accent sur les services complets, nous excellons dans divers domaines..."}
+        ],
+        "callToAction" : "En savoir plus"
+    },
+    "about": {
+        "title": "À propos",
+        "subtitle": "Découvrez l'histoire de Success Three",
+        "content": [
+            {
+                "text": "Success Three est un fournisseur de services de premier plan spécialisé dans le conseil et le soutien opérationnel. Notre expertise s'étend à la fois à nos propres opérations et à celles de nos clients précieux. Avec un accent sur les services complets, nous excellons dans divers domaines, notamment le commerce général, les études d'investissement, l'agence de marché, les opportunités d'affaires et les consultations économiques, comptables, fiscales, juridiques, judiciaires et fiduciaires. Nous proposons des services de conseil en gestion, de tenue de livres, de comptabilité, d'analyse financière, de placement de personnel et d'administration d'experts"
+            },
+            {
+                "text": "En plus de nos services de conseil, Success Three s'engage dans l'achat et la vente de produits miniers et entreprend des projets de construction, y compris la réhabilitation de routes. Notre entreprise s'engage à fournir des résultats exceptionnels et à garantir la satisfaction des clients dans chaque entreprise"
+            },
+            {
+                "text": "Animé par une passion pour l'excellence, Success Three recherche activement et explore diverses opportunités qui sont en accord avec notre mission principale. Nous sommes autorisés à entreprendre toutes les activités financières et commerciales directement ou indirectement liées à notre objectif principal."
+            },
+            {
+                "text": "Chez Success Three, nous sommes fiers de fournir des solutions transformatrices, une attention personnalisée et un soutien fiable pour aider nos clients à prospérer dans un paysage commercial en constante évolution. Avec notre gamme complète de services et notre dévouement inébranlable, nous sommes votre partenaire de confiance sur la voie du succès."
+            }
+
+        ]
+    },
+    "contentWithCTA": {
+        "title":"Notre vision",
+        "textline": [
+            {"text":"Transformez votre vision en réalité avec nous"},
+            {"text": "où l'innovation et la stratégie propulsent"},
+            {"text": "votre entreprise vers de nouveaux sommets."}
+        ]
+    },
+    "contact": { 
+        "title": "Contact",
+        "content": [
+            {
+                "title": "Contactez-nous",
+                "subtext": "Veuillez nous contacter dès maintenant. Nous répondrons rapidement à vos questions.",
+                "subItems": [
+                {
+                    "title": "Envoyer un email",
+                    "text": "hello@gmail.com"
+                },
+                {
+                    "title": "Téléphone",
+                    "text": "+243 XX XX XXX XX"
+                }
+                ]
+            },
+            {
+                "title": "Emplacements",
+                "subtext": "Découvrez nos différents emplacements où nous sommes présents pour mieux vous servir.",
+                "subItems": [
+                {
+                    "title": "Kinshasa",
+                    "text": "63, Boulevard Tshatshi"
+                },
+                {
+                    "title": "Matadi",
+                    "text": "36 Avenue KINKANDA"
+                }
+                ]
+            }
+        ]
+    },
+    "services": {
+        "title": "Donner du pouvoir à la réussite grâce à l'expertise",
+        "content": [
+            {   
+                "title": "Services de conseil et d'accompagnement",
+                "extract": "Success Three offre une expertise et une assistance opérationnelle dans différents domaines...",
+                "text": "Success Three offre une expertise et une assistance opérationnelle dans différents domaines, notamment en matière économique, comptable, fiscale, juridique, judiciaire et fiduciaire. Les clients peuvent compter sur nos consultants expérimentés pour des conseils stratégiques, des consultations en gestion et des solutions complètes adaptées à leurs besoins spécifiques.",
+                "imageUrl": "pexels-antoni-shkraba-5816296.jpg"
+            },
+            {
+                "title": "Construction et réhabilitation routière",
+                "extract": "Success Three entreprend des projets de construction, y compris la réhabilitation de routes...",
+                "text": "Success Three entreprend des projets de construction, y compris la réhabilitation de routes. Grâce à notre expertise dans le secteur de la construction, nous assurons une gestion de projet efficace, un contrôle qualité et une réalisation rapide des projets de construction.",
+                "imageUrl": "pexels-pixabay-534220.jpg"
+            },
+            {
+                "title": "Placement et gestion du personnel",
+                "extract": "Success Three est spécialisé dans le placement et les solutions de gestion du personnel...",
+                "text": "Success Three est spécialisé dans le placement et les solutions de gestion du personnel. Nous aidons les entreprises à identifier et à recruter des professionnels talentueux adaptés à leurs besoins spécifiques. Nos services incluent la recherche de candidats, la présélection et le placement pour garantir la meilleure adéquation pour un succès à long terme.",
+                "imageUrl": "pexels-yan-krukau-7640741.jpg"
+            },
+            {
+                "title": "Analyse financière et études d'investissement",
+                "extract": "Success Three propose une analyse financière approfondie et des études d'investissement...",
+                "text": "Success Three propose une analyse financière approfondie et des études d'investissement pour aider les clients à prendre des décisions éclairées. Notre équipe analyse les tendances du marché, évalue les opportunités d'investissement et fournit des rapports complets pour aider les clients à maximiser leur potentiel financier.",
+                "imageUrl": "pexels-yan-krukau-7693229.jpg"
+            }
+        ],
+        "stats": [
+            { "id": 1, "name": "Transactions toutes les 24 heures", "value": "44 millions" },
+            { "id": 2, "name": "Actifs en possession", "value": "119 billions de dollars" },
+            { "id": 3, "name": "Nouveaux utilisateurs chaque année", "value": "46,000" }
+        ]
+    },
+    "legal" : {
+        "title": "Mentions légales",
+        "content": [
+        {
+            "title": "Numéro d'autorisation d'ouverture économique",
+            "text": "Notre entreprise, SUCESS THREE SARL (ST S.A.R.L), est autorisée à exercer des activités économiques conformément à la législation en vigueur. Nous disposons d'un numéro de licence d'exploitation qui certifie notre conformité aux réglementations sur le commerce et la prestation de services."
+        },
+        {
+            "title": "Numéro d'identification national",
+            "text": "Nous sommes enregistrés auprès des autorités compétentes et nous disposons d'un numéro d'identification national, ce qui nous permet d'opérer légalement et en toute transparence."
+        },
+        {
+            "title": "Numéro fiscal",
+            "text": "Nous sommes soumis aux impôts applicables dans notre pays et nous sommes enregistrés auprès des autorités fiscales compétentes. Nous avons un numéro fiscal qui nous identifie en tant que contribuable."
+        },
+        {
+            "title": "Numéro RCCM ",
+            "text": "Notre entreprise est enregistrée auprès du Registre du Commerce et du Crédit Mobilier (RCCM). Le numéro RCCM attribué à notre entreprise confirme notre enregistrement officiel et atteste de notre existence légale en tant qu'entité commerciale."
+        },
+        {
+            "title": "Siège social",
+            "text": "Notre siège social est l'adresse officielle de notre entreprise, où nous sommes légalement établis. C'est là que nous recevons le courrier officiel et les communications administratives. Notre siège social est le lieu de référence pour toute correspondance et tout contact avec notre entreprise."
+        },
+        {
+            "title": "Certificat d'enregistrement auprès de l'INPP",
+            "text": "Nous avons obtenu un certificat d'inscription auprès de l'Institut National de la Prévoyance Professionnelle (INPP), ce qui démontre notre engagement à respecter les obligations sociales et les réglementations en matière de sécurité sociale."
+        },
+        {
+            "title": "Certificat d'enregistrement auprès de l'ONEM",
+            "text": "Nous sommes enregistrés auprès de l'Office National de l'Emploi (ONEM) et avons obtenu une certification d'enregistrement, ce qui démontre notre conformité aux réglementations relatives à l'emploi et à la protection des travailleurs."
+        },
+        {
+            "title": "Certificat d'affiliation à la CNSS",
+            "text": "Nous sommes affiliés à la Caisse Nationale de Sécurité Sociale (CNSS) et nous disposons d'un certificat d'affiliation. Cela témoigne de notre engagement à respecter les obligations sociales envers nos employés et à contribuer au système de sécurité sociale.",
+            "subtext": "En plus des informations légales, notre entreprise a une histoire que nous mettrons bientôt à votre disposition, ainsi que des informations sur nos performances, nos réalisations et nos partenariats. Nous sommes fiers de partager ces éléments avec nos clients et partenaires, afin de renforcer la confiance et la transparence dans nos relations commerciales."
+        },
+        {
+            "title": "En bref, toutes les exigences légales",
+            "text": "Nous nous engageons à respecter toutes les notifications légales applicables à notre entreprise et à nos activités. Cela inclut les autorisations, les enregistrements, les certifications et autres documents officiels nécessaires pour mener nos activités en conformité avec la loi."
+        },
+        {
+            "title": "À propos du nom ",
+            "text": "Notre entreprise s'appelle officiellement SUCESS THREE SARL. L'acronyme ST S.A.R.L est utilisé pour représenter notre nom de manière abrégée. Ces noms sont enregistrés et font partie de notre identité d'entreprise."
+        }
+    ]}
+}

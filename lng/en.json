@@ -1,0 +1,155 @@
+{
+    "nav": [
+        { "route": "Home", "url": "/" },
+        { "route": "Services", "url": "services" },
+        { "route": "Legal mentions", "url": "legal" }
+    ],
+    "hero": {
+        "title": "Success Three",
+        "textLines" : [
+            {"line": "Success Three is a premier service provider specializing in consultancy and operational support."}, 
+            {"line":"Our expertise extends to both our own operations and those of our valued clients."}, 
+            {"line":"With a focus on comprehensive services, we excel in various areas..."}
+        ],
+        "callToAction" : "Learn More"
+    },
+    "about": {
+        "title": "About us",
+        "subtitle": "Discover the Story of Success Three",
+        "content": [
+            {
+                "text": "Success Three is a premier service provider specializing in consultancy and operational support. Our expertise extends to both our own operations and those of our valued clients. With a focus on comprehensive services, we excel in various areas, including general trade, investment studies, market agency, business opportunities, and economic, accounting, tax, legal, judicial, and fiduciary consultation. We offer expert management advisory services, bookkeeping, accounting, financial analysis, personnel placement, and administration."
+            },
+            {
+                "text": "In addition to our consultancy services, Success Three engages in the purchase and sale of mining products and undertakes construction projects, including road rehabilitation. Our company is committed to delivering exceptional results and ensuring client satisfaction in every endeavor."
+            },
+            {
+                "text": "Driven by a passion for excellence, Success Three actively seeks out and explores diverse opportunities that align with our core mission. We are authorized to undertake all financial and commercial activities directly or indirectly related to our primary objective."
+            },
+            {
+                "text": "At Success Three, we pride ourselves on providing transformative solutions, personalized attention, and reliable support to help our clients thrive in an ever-evolving business landscape. With our comprehensive range of services and unwavering dedication, we are your trusted partner on the path to success."
+            }
+
+        ]
+    },
+    "contentWithCTA": {
+        "title":"Our vision",
+        "textline": [
+            {"text":"Turn your vision into reality with us"},
+            {"text": "where innovation and strategy propel"},
+            {"text": "your business to new heights."}
+        ]
+    },
+    "contact": { 
+        "title": "Contact",
+        "content": [
+            {
+                "title": "Get in touch",
+                "subtext": "Please contact us now. We will respond to your questions promptly.",
+                "subItems": [
+                {
+                    "title": "Send an Email",
+                    "text": "hello@gmail.com"
+                },
+                {
+                    "title": "Phone",
+                    "text": "+243 XX XX XXX XX"
+                }
+                ]
+            },
+            {
+                "title": "Locations",
+                "subtext": "Discover our different locations where we are present to serve you better.",
+                "subItems": [
+                {
+                    "title": "Kinshasa",
+                    "text": "63, Boulevard Tshatshi"
+                },
+                {
+                    "title": "Matadi",
+                    "text": "36 Avenue KINKANDA"
+                }
+                ]
+            }
+        ]
+    },
+    "services": {
+        "title": "Empowering Success Through Expertise",
+        "content": [
+            {   
+                "title": "Consultancy and Advisory Services",
+                "extract": "Success Three provides expert guidance and operational assistance in various areas, including economic, accounting, tax, legal, ...",
+                "text": "Success Three provides expert guidance and operational assistance in various areas, including economic, accounting, tax, legal, judicial, and fiduciary matters. Clients can rely on our experienced consultants for strategic advice, management consultancy, and comprehensive solutions tailored to their specific needs.",
+                "imageUrl": "pexels-antoni-shkraba-5816296.jpg"
+            },
+            {
+                "title": "Construction and Road Rehabilitation",
+                "extract": "Success Three undertakes construction projects, including the rehabilitation of roads. With expertise in the construction industry, we provide efficient project management...",
+                "text": "Success Three undertakes construction projects, including the rehabilitation of roads. With expertise in the construction industry, we provide efficient project management, quality control, and timely completion of construction projects.",
+                "imageUrl": "pexels-pixabay-534220.jpg"
+            },
+            {
+                "title": "Personnel Placement and Management",
+                "extract": "Success Three specializes in personnel placement and management solutions. We help businesses identify and recruit talented professionals suitable for their specific requirements.",
+                "text": "Success Three specializes in personnel placement and management solutions. We help businesses identify and recruit talented professionals suitable for their specific requirements. Our services include candidate sourcing, screening, and placement to ensure the right fit for long-term success.",
+                "imageUrl": "pexels-yan-krukau-7640741.jpg"
+            },
+            {
+                "title": "Financial Analysis & Investment Studies",
+                "extract": "Success Three offers in-depth financial analysis and investment studies to assist clients in making informed decisions.",
+                "text": "Success Three offers in-depth financial analysis and investment studies to assist clients in making informed decisions. Our team analyzes market trends, evaluates investment opportunities, and provides comprehensive reports to support clients in maximizing their financial potential.",
+                "imageUrl": "pexels-yan-krukau-7693229.jpg"
+            }
+        ],
+        "stats": [
+            { "id": 1, "name": "Transactions every 24 hours", "value": "44 million" },
+            { "id": 2, "name": "Assets under holding", "value": "$119 trillion" },
+            { "id": 3, "name": "New users annually", "value": "46,000" }
+        ]
+    },
+    "legal" : {
+        "title": "Legal mentions",
+        "content": [
+        {
+            "title": "Authorization number of economic opening",
+            "text": "Our company, SUCESS THREE SARL (ST S.A.R.L), is authorized to carry out economic activities in accordance with the current legislation. We have a business license number that certifies our compliance with the regulations on trade and provision of services."
+        },
+        {
+            "title": "National identification number",
+            "text": "We are registered with the relevant authorities and have a national identification number, which allows us to operate legally and transparently."
+        },
+        {
+            "title": "Tax number",
+            "text": "We are subject to the applicable taxes in our country and are registered with the relevant tax authorities. We have a tax number that identifies us as a taxpayer."
+        },
+        {
+            "title": "RCCM number:",
+            "text": "Our company is registered with the Registre du Commerce et du Crédit Mobilier (RCCM). The RCCM number assigned to our company confirms our official registration and attests to our legal existence as a business entity."
+        },
+        {
+            "title": "Registered office",
+            "text": "Our registered office is the official address of our company, where we are legally established. This is where we receive official mail and administrative communications. Our registered office is the place of reference for all correspondence and contacts with our company."
+        },
+        {
+            "title": "Certificate of registration at INPP",
+            "text": "We have obtained a certificate of registration with the National Institute of Professional Providence (INPP), which demonstrates our commitment to comply with social obligations and regulations on social security."
+        },
+        {
+            "title": "Certificate of registration with the ONEM",
+            "text": "We are registered with the National Employment Office (ONEM) and have obtained a registration certification, which demonstrates our compliance with regulations related to employment and worker protection."
+        },
+        {
+            "title": "Certificate of affiliation with CNSS",
+            "text": "We are affiliated with the National Social Security Fund (CNSS) and we have a certificate of affiliation. This demonstrates our commitment to respect the social obligations towards our employees and to contribute to the social security system.",
+            "subtext": "In addition to the legal disclosures, our company has a history that we will soon make available to you, as well as information about our performance, achievements and partnerships. We are proud to share these elements with our customers and partners, in order to strengthen trust and transparency in our business relationships."
+        },
+        {
+            "title": "In short, all legal requirements",
+            "text": "We are committed to complying with all legal notices applicable to our company and our activities. This includes authorizations, registrations, certifications and other official documents that are necessary to carry out our activities in compliance with the law."
+        },
+        {
+            "title": "About the name:",
+            "text": "Our company is officially named SUCESS THREE SARL. The acronym ST S.A.R.L is used to represent our name in a shortened way. These names are registered and are part of our corporate identity."
+        }
+    ]}
+}

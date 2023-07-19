@@ -3,9 +3,12 @@ import Container from "./container";
 import { motion, m } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import sectionImage from "../public/images/vision-image.jpg";
-import {Link} from "react-scroll";
+import { useTranslation } from "react-i18next";
 
 export default function Stats() {
+
+  const {t} = useTranslation()
+
   const [ref, inView] = useInView({
     threshold: 0.3,
     triggerOnce: true,
@@ -36,11 +39,11 @@ export default function Stats() {
               <div className="bg-palette-lightOpacity py-24 sm:py-32">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
-                    {stats.map((stat) => (
+                    {stats.map((stat, index) => (
                         <div key={stat.id} className="mx-auto flex max-w-xs flex-col gap-y-4">
-                        <dt className="text-base leading-7 text-slate-200">{stat.name}</dt>
+                        <dt className="text-base leading-7 text-slate-200">{t(`services.stats.${index}.name`)}</dt>
                         <dd className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">
-                            {stat.value}
+                            {t(`services.stats.${index}.value`)}
                         </dd>
                         </div>
                     ))}

@@ -2,7 +2,7 @@ import React, {forwardRef} from "react";
 import Container from "./container";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-
+import { useTranslation } from "react-i18next";
 const items = [
   {
     title: "Email",
@@ -70,6 +70,9 @@ const testItems = [
 
 export default function Contact() {
 
+  const {t} = useTranslation()
+
+
   const [ref, inView] = useInView({
     threshold: 0.3,
     triggerOnce: true
@@ -93,36 +96,18 @@ export default function Contact() {
                 // key={i} 
                 className="w-full md:h-100 xsl:w-6/12 text-white grid grid-cols-1 grid-rows-2 gap-y-12 items-center md:items-start py-2 px-2 rounded-md md:min-h-full"
               >
-                {/* {icon}
-              {title && <h4 className="text-2xl font-montrealMedium mt-4 mb-3 text-palette-blue">
-                {title}
-              </h4>}
-              {text && <p className="font-montrealRegular mt-1 text-black  xl:text-md ">{text}</p>}
-              {subtext && <p className="font-montrealRegular text-black xl:text-md  ">{subtext}</p>}
-              <div className="flex justify-between">
-                {adressList && adressList.map((address,index) => (
-                  <div className="w-full flex flex-col p-2 my-2" key={index}>
-                    <span className="">
-                      {address.icon}
-                      <h4 className="text-black py-2">{address.city}</h4>
-                    </span>
-                    <p className="text-black row-span-2">{address.address}</p>
-                  </div>
-                ))}
-              </div>
-              {link && <a href={link} className="font-montrealRegular text-black xl:text-md underline ">{link}</a>} */}
               {
                 testItems.map((item, index) => (
                   <div key={index} className="grid grid-cols-1 md:grid-cols-3 w-full h-full mb-20">
                     <div className="">
-                      <h4 className="text-black text-3xl mb-4">{item.title}</h4>
-                      <p className="text-black">{item.subtext}</p>
+                      <h4 className="text-black text-3xl mb-4">{t(`contact.content.${index}.title`)}</h4>
+                      <p className="text-black">{t(`contact.content.${index}.subtext`)}</p>
                     </div>
                     <div className="col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4">
                       {item.subItems.map((itm, i)=>(
                         <div className=" py-8 px-10 rounded bg-neutral-100 " key={i}>
-                          <h5 className="text-2xl text-palette-blue mb-4">{itm.title}</h5>
-                          <p className="text-xl text-gray-600">{itm.text}</p>
+                          <h5 className="text-2xl text-palette-blue mb-4">{t(`contact.content.${index}.subItems.${i}.title`)}</h5>
+                          <p className="text-xl text-gray-600">{t(`contact.content.${index}.subItems.${i}.text`)}</p>
                         </div>
                       ))}
                     </div>

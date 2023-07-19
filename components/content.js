@@ -3,8 +3,12 @@ import Container from "./container";
 import { motion, m } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import sectionImage from "../public/images/services-image.jpg";
+import { useTranslation } from "react-i18next";
 
 export default function Content() {
+
+  const {t} = useTranslation()
+
   const [ref, inView] = useInView({
     threshold: 0.3,
     triggerOnce: true,
@@ -32,7 +36,7 @@ export default function Content() {
                   ease: "easeInOut",
                 }
               } : {}}
-            >Our story</motion.h3>
+            >{t('contentWithCTA.title')}</motion.h3>
             <motion.div>
               {lines.map((line, index) => {
                 return (
@@ -51,7 +55,7 @@ export default function Content() {
                       } : {}}
                       className="text-[13px] sm:text-xl font-montrealMedium text-center text-white  text-opacity-100 mb-0  "
                     >
-                      {line}
+                      {t(`contentWithCTA.textline.${index}.text`)}
                     </motion.p>
                   </m.div>
                 );

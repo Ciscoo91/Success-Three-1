@@ -4,10 +4,12 @@ import FancyLink from '@/components/fancyLink'
 import { fade } from '@/helpers/transitions'
 import { LazyMotion, domAnimation, m } from 'framer-motion'
 import { NextSeo } from 'next-seo'
-
+import {useTranslation} from "react-i18next"
 
 
 export default function LegalNotice() {
+
+    const {t} = useTranslation()
 
     const legal = [
     {
@@ -66,13 +68,13 @@ export default function LegalNotice() {
         >
           <Container extraClasses="">
             <m.div variants={fade} className='flex flex-col items-center'>
-              <h1 className="font-bold text-2xl md:text-3xl xl:text-4xl pt-40 mb-20">Legal Notice</h1>
+              <h1 className="font-bold text-2xl md:text-3xl xl:text-4xl pt-40 mb-20">{t('legal.title')}</h1>
               <div className="content max-w-3xl mb-4">
                 {legal.map(({title, text, subtext}, i) => (
-                    <div className="" key={i}>
-                        <h3 className='text-dark text-2xl'>{title}</h3>
-                        <p className="text-dark">{text}</p>
-                        {subtext && <p className="text-dark">{subtext}</p>}
+                    <div className="mt-4" key={i}>
+                        <h3 className='text-dark text-2xl'>{t(`legal.content.${i}.title`)}</h3>
+                        <p className="text-dark">{t(`legal.content.${i}.text`)}</p>
+                        {subtext && <p className="text-dark">{t(`legal.content.${i}.subtext`)}</p>}
                     </div>
                 ))}
               </div>

@@ -3,7 +3,7 @@ import Container from "./container";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Modal from "react-modal"
-
+import { useTranslation } from "react-i18next";
 
 function sliceStringByCharacters(string, numCharacters) {
   if (string.length <= numCharacters) {
@@ -15,6 +15,9 @@ function sliceStringByCharacters(string, numCharacters) {
 
 
 export default function Services() {
+
+  const {t} = useTranslation()
+
   const [ref, inView] = useInView({
     threshold: 0.3,
     triggerOnce: true,
@@ -74,9 +77,9 @@ export default function Services() {
   const [modalIsOpen, setIsOpen] = useState(false);
   const [currentContent, setCurrentContent] = useState("")
 
-  function openModalAndSetCurrentContent(item) {
+  function openModalAndSetCurrentContent(item, index) {
     setIsOpen(true);
-    setCurrentContent(item)
+    setCurrentContent({item,index})
   }
 
   function afterOpenModal() {
@@ -94,7 +97,7 @@ export default function Services() {
         <div className="mb-6 w-full flex flex-col">
             <p className="text-palette-blue font-montrealRegular self-start">Services</p>
             <motion.h4 variants={listItemVariants} className={`${lineStyle} font-montrealMedium  mt-4  md:mt-4 text-center`}>
-            Empowering Success Through Expertise
+            {t('services.title')}
             </motion.h4>
         </div>
         <motion.ul
@@ -110,20 +113,16 @@ export default function Services() {
               variants={listItemVariants}
               className="text-base sm:text-lg md:text-xl font-montrealRegular"
               onClick={() => {
-                openModalAndSetCurrentContent(item)
+                openModalAndSetCurrentContent(item, index)
               }}
             >
-              {/* <div className="">
-                <img className="w-9 h-11 mb-8" src={item.imageUrl} alt={`${item.title} icon`} />
-                <span className="font-semibold text-xl text-palette-blue">{item.title}</span>
-                <p className="mt-8">{item.text}</p>
-              </div> */}
               <div className="max-w-md rounded mr-0 overflow-hidden shadow-sm hover:cursor-pointer hover:bg-blue-100">
                 <img className="w-full" src={item.imageUrl} alt="Sunset in the mountains" />
                 <div className="px-6 py-4">
-                  <div className="font-bold text-xl mb-2">{item.title}</div>
+                  <div className="font-bold text-xl mb-2">{t(`services.content.${index}.title`)}</div>
                   <p className="text-gray-700 text-base">
-                    {sliceStringByCharacters(item.text, 100)}
+                    {/* {sliceStringByCharacters(item.text, 100)} */}
+                    {t(`services.content.${index}.extract`)}
                   </p>
                 </div>
               </div>
@@ -148,11 +147,11 @@ export default function Services() {
             
             <div className="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg  mt-8">
               <div className="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
-                <img className="w-full" src={currentContent.imageUrl} alt="Sunset in the mountains" />
+                <img className="w-full" src={currentContent.item?.imageUrl} alt="Sunset in the mountains" />
                 <div className="px-6 py-4">
-                  <div className="font-bold text-palette-blue text-xl mb-2">{currentContent.title}</div>
+                  <div className="font-bold text-palette-blue text-xl mb-2">{t(`services.content.${currentContent.index}.title`)}</div>
                   <p className="text-gray-700 text-base">
-                    {currentContent.text}
+                    {t(`services.content.${currentContent.index}.text`)}
                   </p>
                 </div>
               </div>
