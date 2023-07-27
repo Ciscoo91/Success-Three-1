@@ -1,11 +1,10 @@
+import { useState, useEffect } from "react";
 
 import Container from "../container";
 import Navigation from "./navigation";
 import OverlayMenu from "./menu";
 import Burger from "./burger";
 import Logo from "./logo";
-
-import { useState, useEffect } from "react";
 import {
   motion,
   LayoutGroup,

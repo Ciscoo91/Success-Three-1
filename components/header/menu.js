@@ -3,10 +3,13 @@ import { slideInLeft, stagger } from "../../helpers/transitions";
 import { motion } from "framer-motion";
 // import {Link} from "react-scroll"
 import Link from "next/link"
-
+import Translator from "./translator";
+import { useTranslation } from "react-i18next";
 
 
 export default function Menu({ open, items, setOpen }) {
+
+  const {t} = useTranslation()
   const asideVariants = {
     open: {
       x: 0,
@@ -43,13 +46,14 @@ export default function Menu({ open, items, setOpen }) {
               variants={slideInLeft}
               className="group menu-overlay-item text-palette-blue text-6xl  md:text-7xl pt-10 duration-100 ease-in-out"  >
               <Link href={url} smooth={true} duration={800} delay={1000} offset={-50} onClick={setOpen}>
-              {route}
+              {t(`nav.${index}.route`)}
               </Link>
               <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-palette-blue"></span>
             </motion.li>
           );
         })}
       </motion.ul>
+      <Translator/>
     </motion.aside>
   );
 }

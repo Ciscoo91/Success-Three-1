@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Link from "next/link"
 import {useTranslation} from "react-i18next"
 
+import Translator from "./translator";
 
 const navItemVariants = {
   hidden: { opacity: 0, y: -10 },
@@ -59,6 +60,7 @@ export default function Navigation({ items, setOpen }) {
           );
         })}
       </motion.ul>
+      <Translator/>
     </motion.nav>
   );
 }
