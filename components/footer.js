@@ -21,9 +21,9 @@ export default function Footer() {
                 Maintained by 350lab Studio
               </a>
             </div>
-            <div className="ml-12 flex justify-between w-[100px]">
-              <button onClick={() => i18n.changeLanguage('en')} className="text-lg">En 🇬🇧</button>
-              <button onClick={() => i18n.changeLanguage('fr')} className="text-lg">FR 🇫🇷</button>
+            <div className="ml-12 flex justify-between w-[50px]">
+              <button onClick={() => i18n.changeLanguage('en')} className="">En 🇬🇧</button>
+              <button onClick={() => i18n.changeLanguage('fr')} className="">FR 🇫🇷</button>
             </div>
           </div>
         </div>

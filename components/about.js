@@ -61,7 +61,7 @@ export default function About() {
         <div>
           <p className="text-palette-blue font-montrealRegular">{t('about.title')}</p>
         <motion.h4 variants={listItemVariants} animate={inView ? "visible" : "hidden"} className={`${lineStyle} font-montrealMedium max-w-[280px] mt-4 md:w-[400px] md:mt-4`}>
-          Discover the Story of Success Three
+          {t(`about.subtitle`)}
         </motion.h4>
         </div>
         <motion.ul

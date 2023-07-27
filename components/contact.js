@@ -71,7 +71,7 @@ const testItems = [
 export default function Contact() {
 
   const {t} = useTranslation()
-
+  const lineStyle = "text-2xl sm:text-2xl 2xl:text-3xl";
 
   const [ref, inView] = useInView({
     threshold: 0.3,
@@ -98,16 +98,18 @@ export default function Contact() {
               >
               {
                 testItems.map((item, index) => (
-                  <div key={index} className="grid grid-cols-1 md:grid-cols-3 w-full h-full mb-20">
-                    <div className="">
-                      <h4 className="text-black text-3xl mb-4">{t(`contact.content.${index}.title`)}</h4>
+                  <div key={index} className="grid grid-cols-1 md:grid-cols-3 md:gap-4 lg:gap-8 w-full md:mb-12">
+                    <div className="mb-8">
+                      <h4 className={`${lineStyle} font-montrealMedium max-w-[280px] mt-4 md:w-[400px] md:mt-4 text-black mb-4 md:mb-4`}>
+                        {t(`contact.content.${index}.title`)}
+                      </h4>
                       <p className="text-black">{t(`contact.content.${index}.subtext`)}</p>
                     </div>
-                    <div className="col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div className=" col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4">
                       {item.subItems.map((itm, i)=>(
-                        <div className=" py-8 px-10 rounded bg-neutral-100 " key={i}>
-                          <h5 className="text-2xl text-palette-blue mb-4">{t(`contact.content.${index}.subItems.${i}.title`)}</h5>
-                          <p className="text-xl text-gray-600">{t(`contact.content.${index}.subItems.${i}.text`)}</p>
+                        <div className=" md:py-4 md:px-10 rounded bg-neutral-100 " key={i}>
+                          <h5 className="py-2 pl-2 sm:text-lg md:text-xl font-montrealRegular text-palette-blue md:mb-4">{t(`contact.content.${index}.subItems.${i}.title`)}</h5>
+                          <p className="py-2 pl-2 lg:text-xl text-gray-600">{t(`contact.content.${index}.subItems.${i}.text`)}</p>
                         </div>
                       ))}
                     </div>

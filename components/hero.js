@@ -45,7 +45,7 @@ export default function Hero() {
         <main className="hero translate-y-[-50px] h-screen sm:h-screen flex flex-col justify-center" id="hero">
           <div className=" relative translate-y-[80px]">
             <div className=" hero-container w-12/12 relative">
-              <motion.div className="title-container">
+              <motion.div className="title-container z-20">
                 {titleLines.map((line, index) => {
                   return (
                     <m.div
@@ -71,7 +71,7 @@ export default function Hero() {
               <motion.ul
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1, transition: { delay: 1 } }}
-                className="my-6"
+                className="my-6 z-20"
               >
                 {textLines.map((line, i) => {
                   const isFirst = i === 0 ? "mt-4 " : "mt-0";
@@ -102,7 +102,7 @@ export default function Hero() {
                 opacity: 1,
                 transition: { duration: 0.5, delay: 1.3, ease: "easeInOut" },
               }}
-              className="flex  mt-4"
+              className="flex z-20 mt-4"
             >
               <motion.button
                 type="button"
@@ -152,11 +152,7 @@ export default function Hero() {
         }}
       >
 
-       
-       
-        
-        
-        <div className="absolute top-0 w-screen h-full bg-palette-blue opacity-50">
+        <div className="absolute top-0 w-screen h-full bg-slate-900 opacity-90 overlay z-10">
         <HeroGallery />
         </div>
 
