@@ -35,7 +35,7 @@ export default function HeroGallery() {
       {images.map((image, index) => (
         <img
           key={index}
-          className={`carousel-image ${
+          className={`carousel-image brightness-50 ${
             index === currentIndex ? "current" : ""
           }`}
           src={image.original}
