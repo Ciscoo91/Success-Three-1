@@ -1,10 +1,11 @@
 import React from "react";
 import Container from "./container";
 import {useTranslation} from "react-i18next"
+import Link from "next/link"
 
 export default function Footer() {
 
-  const {i18n} = useTranslation()
+  const {t, i18n} = useTranslation()
 
   return (
     <footer className=" bg-palette-white text-black">
@@ -20,6 +21,7 @@ export default function Footer() {
               >
                 Maintained by 350lab Studio
               </a>
+              <Link href="legal" className="ml-10 no-underline hover:text-gray-500 focus:text-gray-500">{t('footer.links.0.route')}</Link>
             </div>
             <div className="ml-12 flex justify-between w-[50px]">
               <button onClick={() => i18n.changeLanguage('en')} className="">En 🇬🇧</button>

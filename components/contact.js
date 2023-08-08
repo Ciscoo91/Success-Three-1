@@ -44,11 +44,11 @@ const testItems = [
     subItems: [
       {
         title: "Send an Email",
-        text: "hello@gmail.com"
+        text: "successthrees@gmail.com"
       },
       {
         title: "Phone",
-        text: "+243 XX XX XXX XX"
+        text: "+243 808 430 963"
       }
     ]
   },

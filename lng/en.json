@@ -1,8 +1,7 @@
 {
     "nav": [
         { "route": "Home", "url": "/" },
-        { "route": "Services", "url": "services" },
-        { "route": "Legal mentions", "url": "legal" }
+        { "route": "Services", "url": "services" }
     ],
     "hero": {
         "title": "Success Three",
@@ -49,11 +48,11 @@
                 "subItems": [
                 {
                     "title": "Send an Email",
-                    "text": "hello@gmail.com"
+                    "text": "successthees@gmail.com"
                 },
                 {
                     "title": "Phone",
-                    "text": "+243 XX XX XXX XX"
+                    "text": "+243 808 430 963"
                 }
                 ]
             },
@@ -105,6 +104,11 @@
             { "id": 1, "name": "Transactions every 24 hours", "value": "44 million" },
             { "id": 2, "name": "Assets under holding", "value": "$119 trillion" },
             { "id": 3, "name": "New users annually", "value": "46,000" }
+        ]
+    },
+    "footer": {
+        "links" : [
+            { "route": "Legal mentions", "url": "legal" }
         ]
     },
     "legal" : {
