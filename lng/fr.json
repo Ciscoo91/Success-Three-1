@@ -79,25 +79,25 @@
                 "title": "Services de conseil et d'accompagnement",
                 "extract": "Success Three offre une expertise et une assistance opérationnelle dans différents domaines...",
                 "text": "Success Three offre une expertise et une assistance opérationnelle dans différents domaines, notamment en matière économique, comptable, fiscale, juridique, judiciaire et fiduciaire. Les clients peuvent compter sur nos consultants expérimentés pour des conseils stratégiques, des consultations en gestion et des solutions complètes adaptées à leurs besoins spécifiques.",
-                "imageUrl": "pexels-antoni-shkraba-5816296.jpg"
+                "imageUrl": "images/consultancy.png"
             },
             {
                 "title": "Construction et réhabilitation routière",
                 "extract": "Success Three entreprend des projets de construction, y compris la réhabilitation de routes...",
                 "text": "Success Three entreprend des projets de construction, y compris la réhabilitation de routes. Grâce à notre expertise dans le secteur de la construction, nous assurons une gestion de projet efficace, un contrôle qualité et une réalisation rapide des projets de construction.",
-                "imageUrl": "pexels-pixabay-534220.jpg"
+                "imageUrl": "images/road_construction.png"
             },
             {
                 "title": "Placement et gestion du personnel",
                 "extract": "Success Three est spécialisé dans le placement et les solutions de gestion du personnel...",
                 "text": "Success Three est spécialisé dans le placement et les solutions de gestion du personnel. Nous aidons les entreprises à identifier et à recruter des professionnels talentueux adaptés à leurs besoins spécifiques. Nos services incluent la recherche de candidats, la présélection et le placement pour garantir la meilleure adéquation pour un succès à long terme.",
-                "imageUrl": "pexels-yan-krukau-7640741.jpg"
+                "imageUrl": "images/placement_et_gestion.png"
             },
             {
                 "title": "Analyse financière et études d'investissement",
                 "extract": "Success Three propose une analyse financière approfondie et des études d'investissement...",
                 "text": "Success Three propose une analyse financière approfondie et des études d'investissement pour aider les clients à prendre des décisions éclairées. Notre équipe analyse les tendances du marché, évalue les opportunités d'investissement et fournit des rapports complets pour aider les clients à maximiser leur potentiel financier.",
-                "imageUrl": "pexels-yan-krukau-7693229.jpg"
+                "imageUrl": "images/analyse_financiere.png"
             }
         ],
         "stats": [

@@ -29,22 +29,22 @@ export default function Services() {
         {   
             "title": "Consultancy and Advisory Services",
             "text": "Success Three provides expert guidance and operational assistance in various areas, including economic, accounting, tax, legal, judicial, and fiduciary matters. Clients can rely on our experienced consultants for strategic advice, management consultancy, and comprehensive solutions tailored to their specific needs.",
-            "imageUrl": "pexels-antoni-shkraba-5816296.jpg"
+            "imageUrl": "images/consultancy.png"
         },
         {
             "title": "Construction and Road Rehabilitation",
             "text": "Success Three undertakes construction projects, including the rehabilitation of roads. With expertise in the construction industry, we provide efficient project management, quality control, and timely completion of construction projects.",
-            "imageUrl": "pexels-pixabay-534220.jpg"
+            "imageUrl": "images/road_construction.png"
         },
         {
             "title": "Personnel Placement and Management",
             "text": "Success Three specializes in personnel placement and management solutions. We help businesses identify and recruit talented professionals suitable for their specific requirements. Our services include candidate sourcing, screening, and placement to ensure the right fit for long-term success.",
-            "imageUrl": "pexels-yan-krukau-7640741.jpg"
+            "imageUrl": "images/placement_et_gestion.png"
         },
         {
             "title": "Financial Analysis & Investment Studies",
             "text": "Success Three offers in-depth financial analysis and investment studies to assist clients in making informed decisions. Our team analyzes market trends, evaluates investment opportunities, and provides comprehensive reports to support clients in maximizing their financial potential.",
-            "imageUrl": "pexels-yan-krukau-7693229.jpg"
+            "imageUrl": "images/analyse_financiere.png"
         },
     ]
 
