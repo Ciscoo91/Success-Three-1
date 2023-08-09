@@ -68,7 +68,7 @@ export default function LegalNotice() {
         >
           <Container extraClasses="">
             <m.div variants={fade} className='flex flex-col items-center'>
-              <h1 className="font-bold text-2xl md:text-3xl xl:text-4xl pt-40 mb-20">{t('legal.title')}</h1>
+              <h1 className="font-bold text-3xl xl:text-4xl pt-40 mb-20 self-start">{t('legal.title')}</h1>
               <div className="content max-w-3xl mb-4">
                 {legal.map(({title, text, subtext}, i) => (
                     <div className="mt-4" key={i}>
@@ -79,7 +79,7 @@ export default function LegalNotice() {
                 ))}
               </div>
               
-              <FancyLink destination="/" a11yText="Navigate to the home page" label="Home Page" />
+              <FancyLink destination="/" a11yText="Navigate to the home page" label={t('legal.fancyLink')} />
             </m.div>
           </Container>
         </m.div>

@@ -96,7 +96,7 @@ export default function Services() {
       <div className="flex flex-col items-center py-28 relative lg:py-36" id="services">
         <div className="mb-6 w-full flex flex-col">
             <p className="text-palette-blue font-montrealRegular self-start">Services</p>
-            <motion.h4 variants={listItemVariants} className={`${lineStyle} font-montrealMedium  mt-4  md:mt-4 text-center`}>
+            <motion.h4 variants={listItemVariants} className={`${lineStyle} font-montrealMedium  mt-4  md:mt-4 md:text-center`}>
             {t('services.title')}
             </motion.h4>
         </div>

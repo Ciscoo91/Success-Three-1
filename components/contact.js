@@ -94,7 +94,7 @@ export default function Contact() {
                 animate={inView ? {opacity: 1, y: 0} : {}}
                 transition={{ duration: 0.3, delay: 0.4, ease: "easeOut" }}
                 // key={i} 
-                className="w-full md:h-100 xsl:w-6/12 text-white grid grid-cols-1 grid-rows-2 gap-y-12 items-center md:items-start py-2 px-2 rounded-md md:min-h-full"
+                className="w-full md:h-100 xsl:w-6/12 text-white grid grid-cols-1 grid-rows-2 gap-y-12 items-center md:items-start rounded-md md:min-h-full"
               >
               {
                 testItems.map((item, index) => (
