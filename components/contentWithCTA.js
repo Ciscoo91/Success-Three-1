@@ -16,8 +16,7 @@ export default function ContentWithCTA() {
   const lines = [
     
     "Turn your vision into reality with us",
-    "where innovation and strategy propel",
-  "your business to new heights."
+    "where innovation and strategy propel"
   ];
 
   return (

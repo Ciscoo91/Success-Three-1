@@ -44,11 +44,11 @@ const testItems = [
     subItems: [
       {
         title: "Send an Email",
-        text: "successthrees@gmail.com"
+        text: "sucessthree023@gmail.com"
       },
       {
         title: "Phone",
-        text: "+243 808 430 963"
+        text: "+243808430963"
       }
     ]
   },
@@ -57,13 +57,17 @@ const testItems = [
     subtext: "Consequat sunct cillum cillum elit sint. Qui accaecat nisi ipsum commodo.",
     subItems: [
       {
-        title: "Kinshasa",
+        title: "Kinshasa/Gombe",
         text: "63, Boulevard Tshatshi",
       },
       {
         title: "Matadi",
         text: "36 Avenue KINKANDA",
       },
+      {
+        title: "Haut-Katanga/Lubumbashi",
+        text: "2C, Lumumba"
+      }
     ]
   }
 ]
@@ -77,6 +81,12 @@ export default function Contact() {
     threshold: 0.3,
     triggerOnce: true
   });
+
+  function conditionalSubItem(item, index){
+    if(item.title == "Send an Email" || item.title == "Phone"){
+      return 
+    }
+  }
 
   return (
     <Container extraClasses="rounded-t-[2rem] py-16 md:py-32">
@@ -109,7 +119,8 @@ export default function Contact() {
                       {item.subItems.map((itm, i)=>(
                         <div className=" md:py-4 md:px-10 rounded bg-neutral-100 " key={i}>
                           <h5 className="py-2 pl-2 sm:text-lg md:text-xl font-montrealRegular text-palette-blue md:mb-4">{t(`contact.content.${index}.subItems.${i}.title`)}</h5>
-                          <p className="py-2 pl-2 lg:text-xl text-gray-600">{t(`contact.content.${index}.subItems.${i}.text`)}</p>
+                          {itm.title == "Send an Email" ? <a href={`mailto:${itm.text}`} className="py-2 pl-2 lg:text-xl text-gray-600 block">{t(`contact.content.${index}.subItems.${i}.text`)}</a>
+                          : item.title == "Phone" ? <a href={`tel:${itm.text}`} className="py-2 pl-2 lg:text-xl text-gray-600 block">{t(`contact.content.${index}.subItems.${i}.text`)}</a> : <p className="py-2 pl-2 lg:text-xl text-gray-600">{t(`contact.content.${index}.subItems.${i}.text`)}</p>}
                         </div>
                       ))}
                     </div>

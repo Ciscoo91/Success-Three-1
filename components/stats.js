@@ -31,7 +31,7 @@ export default function Stats() {
 ]
 
   return (
-    <div ref={ref} className="relative h-[50vh] overflow-hidden flex flex-col justify-center">
+    <div ref={ref} className="relative h-[40vh] overflow-hidden flex flex-col justify-center">
       <Container extraClasses="relative bg-palette-blue rounded-b-[2rem] h-full">
         <main >
           <div className=" w-12/12 relative">

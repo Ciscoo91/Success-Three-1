@@ -75,7 +75,7 @@ export default function About() {
             <motion.li
               key={index}
               variants={listItemVariants}
-              className="text-base sm:text-lg md:text-xl font-montrealRegular"
+              className="text-base text-justify sm:text-lg md:text-xl font-montrealRegular"
             >
               {t(`about.content.${index}.text`)}
             </motion.li>

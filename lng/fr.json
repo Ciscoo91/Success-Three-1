@@ -17,7 +17,7 @@
         "subtitle": "Découvrez l'histoire de Success Three",
         "content": [
             {
-                "text": "Success Three est un fournisseur de services de premier plan spécialisé dans le conseil et le soutien opérationnel. Notre expertise s'étend à la fois à nos propres opérations et à celles de nos clients précieux. Avec un accent sur les services complets, nous excellons dans divers domaines, notamment le commerce général, les études d'investissement, l'agence de marché, les opportunités d'affaires et les consultations économiques, comptables, fiscales, juridiques, judiciaires et fiduciaires. Nous proposons des services de conseil en gestion, de tenue de livres, de comptabilité, d'analyse financière, de placement de personnel et d'administration d'experts"
+                "text": "Établie en plein cœur de la République démocratique du Congo, Success Three se distingue en tant que fournisseur de services de premier plan, spécialisé dans le conseil et le soutien opérationnel. Notre expertise s'étend à la fois à nos propres opérations et à celles de nos précieux clients. Mettant résolument l'accent sur des services complets, notre savoir-faire englobe divers domaines, mettant en avant de manière particulière les activités douanières, le commerce général, les études d'investissement, l'agence de marché, les opportunités d'affaires, ainsi que les consultations économiques et comptables. Notre répertoire de services inclut un conseil en gestion d'experts, la tenue de livres, la comptabilité, l'analyse financière, le placement de personnel et l'administration."
             },
             {
                 "text": "En plus de nos services de conseil, Success Three s'engage dans l'achat et la vente de produits miniers et entreprend des projets de construction, y compris la réhabilitation de routes. Notre entreprise s'engage à fournir des résultats exceptionnels et à garantir la satisfaction des clients dans chaque entreprise"
@@ -34,9 +34,8 @@
     "contentWithCTA": {
         "title":"Notre vision",
         "textline": [
-            {"text":"Transformez votre vision en réalité avec nous"},
-            {"text": "où l'innovation et la stratégie propulsent"},
-            {"text": "votre entreprise vers de nouveaux sommets."}
+            {"text":"Transformez votre vision en réalité avec nous où l'innovation "},
+            {"text": "et la stratégie propulsent votre entreprise vers de nouveaux sommets."}
         ]
     },
     "contact": { 
@@ -48,7 +47,7 @@
                 "subItems": [
                 {
                     "title": "Envoyer un email",
-                    "text": "successthees@gmail.com"
+                    "text": "sucessthree023@gmail.com"
                 },
                 {
                     "title": "Téléphone",
@@ -60,14 +59,18 @@
                 "title": "Emplacements",
                 "subtext": "Découvrez nos différents emplacements où nous sommes présents pour mieux vous servir.",
                 "subItems": [
-                {
-                    "title": "Kinshasa",
-                    "text": "63, Boulevard Tshatshi"
-                },
-                {
-                    "title": "Matadi",
-                    "text": "36 Avenue KINKANDA"
-                }
+                    {
+                        "title": "Kinshasa/Gombe",
+                        "text": "63, Boulevard Tshatshi"
+                    },
+                    {
+                        "title": "Matadi",
+                        "text": "36 Avenue KINKANDA"
+                    },
+                    {
+                        "title": "Haut-Katanga/Lubumbashi",
+                        "text": "2C, Lumumba"
+                    }
                 ]
             }
         ]

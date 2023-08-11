@@ -17,7 +17,7 @@
         "subtitle": "Discover the Story of Success Three",
         "content": [
             {
-                "text": "Success Three is a premier service provider specializing in consultancy and operational support. Our expertise extends to both our own operations and those of our valued clients. With a focus on comprehensive services, we excel in various areas, including general trade, investment studies, market agency, business opportunities, and economic, accounting, tax, legal, judicial, and fiduciary consultation. We offer expert management advisory services, bookkeeping, accounting, financial analysis, personnel placement, and administration."
+                "text": "Situated in the heart of the Democratic Republic of Congo, Success Three stands out as a premier service provider specialized in consultancy and operational support. Our expertise extends to both our own operations and those of our valued clients. Placing a distinct emphasis on comprehensive services, our proficiency spans various domains, particularly highlighting customs activities, general trade, investment studies, market agency, business opportunities, as well as economic and accounting consultations. Our array of services includes expert management consultancy, bookkeeping, accounting, financial analysis, personnel placement, and administration."
             },
             {
                 "text": "In addition to our consultancy services, Success Three engages in the purchase and sale of mining products and undertakes construction projects, including road rehabilitation. Our company is committed to delivering exceptional results and ensuring client satisfaction in every endeavor."
@@ -34,9 +34,8 @@
     "contentWithCTA": {
         "title":"Our vision",
         "textline": [
-            {"text":"Turn your vision into reality with us"},
-            {"text": "where innovation and strategy propel"},
-            {"text": "your business to new heights."}
+            {"text":"Turn your vision into reality with us where innovation"},
+            {"text": "and strategy propel your business to new heights."}
         ]
     },
     "contact": { 
@@ -48,7 +47,7 @@
                 "subItems": [
                 {
                     "title": "Send an Email",
-                    "text": "successthees@gmail.com"
+                    "text": "sucessthree023@gmail.com"
                 },
                 {
                     "title": "Phone",
@@ -60,14 +59,18 @@
                 "title": "Locations",
                 "subtext": "Discover our different locations where we are present to serve you better.",
                 "subItems": [
-                {
-                    "title": "Kinshasa",
-                    "text": "63, Boulevard Tshatshi"
-                },
-                {
-                    "title": "Matadi",
-                    "text": "36 Avenue KINKANDA"
-                }
+                    {
+                        "title": "Kinshasa/Gombe",
+                        "text": "63, Boulevard Tshatshi"
+                    },
+                    {
+                        "title": "Matadi",
+                        "text": "36 Avenue KINKANDA"
+                    },
+                    {
+                        "title": "Haut-Katanga/Lubumbashi",
+                        "text": "2C, Lumumba"
+                    }
                 ]
             }
         ]

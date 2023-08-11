@@ -17,13 +17,12 @@ export default function Content() {
   const lineStyle =
     " carousel-textLine font-montrealRegular line  sm:text-xl  md:text-2xl";
   const lines = [
-    "Turn your vision into reality with our consulting firm",
-      "where innovation and strategy, converge to propel",
-    "your business to new heights."
+    "Turn your vision into reality with us where innovation",
+      "and strategy propel your business to new heights."
   ];
 
   return (
-    <div ref={ref} className="relative h-[50vh] overflow-hidden flex flex-col justify-center">
+    <div ref={ref} className="relative h-[40vh] overflow-hidden flex flex-col justify-center">
       <Container extraClasses="  relative bg-palette-blue rounded-b-[2rem] h-full">
         <main >
           <div className=" w-12/12 relative">
