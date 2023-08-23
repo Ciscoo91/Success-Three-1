@@ -20,21 +20,6 @@ export default function MyGoogleMap() {
         googleMapsApiKey: "AIzaSyC5ZIyU3laLcteFXSaCCnf7R9X32iY2FCI"
     })
 
-//     const [map, setMap] = useState(null)
-
-//     const onLoad = useCallback(function callback(map) {
-//         const google = window.google
-//         // This is just an example of getting and using the map instance!!! don't just blindly copy!
-//         const bounds = new google.maps.LatLngBounds(center);
-//         map.fitBounds(bounds);
-
-//         setMap(map)
-//     }, [])
-
-//     const onUnmount = useCallback(function callback(map) {
-//     setMap(null)
-//  }, [])
-
   const {t} = useTranslation()
 
   const [ref, inView] = useInView({

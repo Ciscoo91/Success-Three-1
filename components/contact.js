@@ -120,7 +120,7 @@ export default function Contact() {
                         <div className=" md:py-4 md:px-10 rounded bg-neutral-100 " key={i}>
                           <h5 className="py-2 pl-2 sm:text-lg md:text-xl font-montrealRegular text-palette-blue md:mb-4">{t(`contact.content.${index}.subItems.${i}.title`)}</h5>
                           {itm.title == "Send an Email" ? <a href={`mailto:${itm.text}`} className="py-2 pl-2 lg:text-xl text-gray-600 block">{t(`contact.content.${index}.subItems.${i}.text`)}</a>
-                          : item.title == "Phone" ? <a href={`tel:${itm.text}`} className="py-2 pl-2 lg:text-xl text-gray-600 block">{t(`contact.content.${index}.subItems.${i}.text`)}</a> : <p className="py-2 pl-2 lg:text-xl text-gray-600">{t(`contact.content.${index}.subItems.${i}.text`)}</p>}
+                          : item.title == "Phone" || "Téléphone" ? <a href={`tel:${itm.text}`} className="py-2 pl-2 lg:text-xl text-gray-600 block">{t(`contact.content.${index}.subItems.${i}.text`)}</a> : <p className="py-2 pl-2 lg:text-xl text-gray-600">{t(`contact.content.${index}.subItems.${i}.text`)}</p>}
                         </div>
                       ))}
                     </div>
