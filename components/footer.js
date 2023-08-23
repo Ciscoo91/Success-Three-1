@@ -21,7 +21,7 @@ export default function Footer() {
               >
                 Maintained by 350lab Studio
               </a>
-              <Link href="legal" className="no-underline hover:text-gray-500 focus:text-gray-500">{t('footer.links.0.route')}</Link>
+              <Link href="/legal" className="no-underline hover:text-gray-500 focus:text-gray-500">{t('footer.links.0.route')}</Link>
             </div>
             <div className="ml-12 flex justify-between w-[60px]">
               <button onClick={() => i18n.changeLanguage('en')} className="">En 🇬🇧</button>

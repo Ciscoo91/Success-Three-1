@@ -57,8 +57,8 @@ export default function About() {
 
   return (
     <Container extraClasses="About-Container">
-      <div className="flex flex-col md:grid md:grid-cols-3  py-16  relative md:py-24 lg:py-36 " id="apropos">
-        <div>
+      <div className="flex flex-col md:grid md:grid-cols-3  py-16  relative md:py-24 lg:py-36" id="apropos">
+        <div className="z-20">
           <p className="text-palette-blue font-montrealRegular">{t('about.title')}</p>
         <motion.h4 variants={listItemVariants} animate={inView ? "visible" : "hidden"} className={`${lineStyle} font-montrealMedium max-w-[280px] mt-4 md:w-[400px] md:mt-4`}>
           {t(`about.subtitle`)}
@@ -66,11 +66,14 @@ export default function About() {
         </div>
         <motion.ul
           ref={ref}
-          className="mt-12 col-span-2 grid grid-cols-1 gap-y-8 font-thin"
+          className="mt-12 col-span-2 grid grid-cols-1 gap-y-8 font-thin z-20 relative"
           variants={listVariants}
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
         >
+          <li className="absolute w-full opacity-25">
+            <img className="" src="congo_flag.jpg" alt="drapeau de la République démocratique du Congo" />
+          </li>
           {content.map((item, index) => (
             <motion.li
               key={index}
