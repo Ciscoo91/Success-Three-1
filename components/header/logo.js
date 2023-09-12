@@ -10,7 +10,7 @@ export default function Logo({ style }) {
       animate={{opacity:1,transition:{duration:.4,delay:1.7}}}
       >
       <Link href="/" smooth={true} duration={800} offset={-100}>
-        <img className="w-52  hover:cursor-pointer" src="images/success-three-logo.png" alt="logo of the company Success Three " />
+        <img className="w-52  hover:cursor-pointer" src="images/sucess-three.png" alt="logo of the company Sucess Three " />
       </Link>
     </motion.div>
   );

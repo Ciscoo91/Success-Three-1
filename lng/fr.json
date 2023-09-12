@@ -4,9 +4,9 @@
         { "route": "Services", "url": "services" }
     ],
     "hero": {
-        "title": "Success Three",
+        "title": "Sucess three",
         "textLines" : [
-            {"line": "Success Three est un fournisseur de services de premier plan spécialisé dans le conseil et le soutien opérationnel."}, 
+            {"line": "Sucess three est un fournisseur de services de premier plan spécialisé dans le conseil et le soutien opérationnel."}, 
             {"line":"Notre expertise s'étend à la fois à nos propres opérations et à celles de nos clients précieux."}, 
             {"line":"Avec un accent sur les services complets, nous excellons dans divers domaines..."}
         ],
@@ -14,19 +14,19 @@
     },
     "about": {
         "title": "À propos",
-        "subtitle": "Découvrez l'histoire de Success Three",
+        "subtitle": "Découvrez l'histoire de Sucess three",
         "content": [
             {
-                "text": "Établie en plein cœur de la République démocratique du Congo, Success Three se distingue en tant que fournisseur de services de premier plan, spécialisé dans le conseil et le soutien opérationnel. Notre expertise s'étend à la fois à nos propres opérations et à celles de nos précieux clients. Mettant résolument l'accent sur des services complets, notre savoir-faire englobe divers domaines, mettant en avant de manière particulière les activités douanières, le commerce général, les études d'investissement, l'agence de marché, les opportunités d'affaires, ainsi que les consultations économiques et comptables. Notre répertoire de services inclut un conseil en gestion d'experts, la tenue de livres, la comptabilité, l'analyse financière, le placement de personnel et l'administration."
+                "text": "Établie en plein cœur de la République démocratique du Congo, Sucess three se distingue en tant que fournisseur de services de premier plan, spécialisé dans le conseil et le soutien opérationnel. Notre expertise s'étend à la fois à nos propres opérations et à celles de nos précieux clients. Mettant résolument l'accent sur des services complets, notre savoir-faire englobe divers domaines, mettant en avant de manière particulière les activités douanières, le commerce général, les études d'investissement, l'agence de marché, les opportunités d'affaires, ainsi que les consultations économiques et comptables. Notre répertoire de services inclut un conseil en gestion d'experts, la tenue de livres, la comptabilité, l'analyse financière, le placement de personnel et l'administration."
             },
             {
-                "text": "En plus de nos services de conseil, Success Three s'engage dans l'achat et la vente de produits miniers et entreprend des projets de construction, y compris la réhabilitation de routes. Notre entreprise s'engage à fournir des résultats exceptionnels et à garantir la satisfaction des clients dans chaque entreprise"
+                "text": "En plus de nos services de conseil, Sucess three s'engage dans l'achat et la vente de produits miniers et entreprend des projets de construction, y compris la réhabilitation de routes. Notre entreprise s'engage à fournir des résultats exceptionnels et à garantir la satisfaction des clients dans chaque entreprise"
             },
             {
-                "text": "Animé par une passion pour l'excellence, Success Three recherche activement et explore diverses opportunités qui sont en accord avec notre mission principale. Nous sommes autorisés à entreprendre toutes les activités financières et commerciales directement ou indirectement liées à notre objectif principal."
+                "text": "Animé par une passion pour l'excellence, Sucess three recherche activement et explore diverses opportunités qui sont en accord avec notre mission principale. Nous sommes autorisés à entreprendre toutes les activités financières et commerciales directement ou indirectement liées à notre objectif principal."
             },
             {
-                "text": "Chez Success Three, nous sommes fiers de fournir des solutions transformatrices, une attention personnalisée et un soutien fiable pour aider nos clients à prospérer dans un paysage commercial en constante évolution. Avec notre gamme complète de services et notre dévouement inébranlable, nous sommes votre partenaire de confiance sur la voie du succès."
+                "text": "Chez Sucess three, nous sommes fiers de fournir des solutions transformatrices, une attention personnalisée et un soutien fiable pour aider nos clients à prospérer dans un paysage commercial en constante évolution. Avec notre gamme complète de services et notre dévouement inébranlable, nous sommes votre partenaire de confiance sur la voie du succès."
             }
 
         ]
@@ -80,26 +80,26 @@
         "content": [
             {   
                 "title": "Services de conseil et d'accompagnement",
-                "extract": "Success Three offre une expertise et une assistance opérationnelle dans différents domaines...",
-                "text": "Success Three offre une expertise et une assistance opérationnelle dans différents domaines, notamment en matière économique, comptable, fiscale, juridique, judiciaire et fiduciaire. Les clients peuvent compter sur nos consultants expérimentés pour des conseils stratégiques, des consultations en gestion et des solutions complètes adaptées à leurs besoins spécifiques.",
+                "extract": "Sucess three offre une expertise et une assistance opérationnelle dans différents domaines...",
+                "text": "Sucess three offre une expertise et une assistance opérationnelle dans différents domaines, notamment en matière économique, comptable, fiscale, juridique, judiciaire et fiduciaire. Les clients peuvent compter sur nos consultants expérimentés pour des conseils stratégiques, des consultations en gestion et des solutions complètes adaptées à leurs besoins spécifiques.",
                 "imageUrl": "images/consultancy.png"
             },
             {
                 "title": "Construction et réhabilitation routière",
-                "extract": "Success Three entreprend des projets de construction, y compris la réhabilitation de routes...",
-                "text": "Success Three entreprend des projets de construction, y compris la réhabilitation de routes. Grâce à notre expertise dans le secteur de la construction, nous assurons une gestion de projet efficace, un contrôle qualité et une réalisation rapide des projets de construction.",
+                "extract": "Sucess three entreprend des projets de construction, y compris la réhabilitation de routes...",
+                "text": "Sucess three entreprend des projets de construction, y compris la réhabilitation de routes. Grâce à notre expertise dans le secteur de la construction, nous assurons une gestion de projet efficace, un contrôle qualité et une réalisation rapide des projets de construction.",
                 "imageUrl": "images/road_construction.png"
             },
             {
                 "title": "Placement et gestion du personnel",
-                "extract": "Success Three est spécialisé dans le placement et les solutions de gestion du personnel...",
-                "text": "Success Three est spécialisé dans le placement et les solutions de gestion du personnel. Nous aidons les entreprises à identifier et à recruter des professionnels talentueux adaptés à leurs besoins spécifiques. Nos services incluent la recherche de candidats, la présélection et le placement pour garantir la meilleure adéquation pour un succès à long terme.",
+                "extract": "Sucess three est spécialisé dans le placement et les solutions de gestion du personnel...",
+                "text": "Sucess three est spécialisé dans le placement et les solutions de gestion du personnel. Nous aidons les entreprises à identifier et à recruter des professionnels talentueux adaptés à leurs besoins spécifiques. Nos services incluent la recherche de candidats, la présélection et le placement pour garantir la meilleure adéquation pour un succès à long terme.",
                 "imageUrl": "images/placement_et_gestion.png"
             },
             {
                 "title": "Analyse financière et études d'investissement",
-                "extract": "Success Three propose une analyse financière approfondie et des études d'investissement...",
-                "text": "Success Three propose une analyse financière approfondie et des études d'investissement pour aider les clients à prendre des décisions éclairées. Notre équipe analyse les tendances du marché, évalue les opportunités d'investissement et fournit des rapports complets pour aider les clients à maximiser leur potentiel financier.",
+                "extract": "Sucess three propose une analyse financière approfondie et des études d'investissement...",
+                "text": "Sucess three propose une analyse financière approfondie et des études d'investissement pour aider les clients à prendre des décisions éclairées. Notre équipe analyse les tendances du marché, évalue les opportunités d'investissement et fournit des rapports complets pour aider les clients à maximiser leur potentiel financier.",
                 "imageUrl": "images/analyse_financiere.png"
             }
         ],

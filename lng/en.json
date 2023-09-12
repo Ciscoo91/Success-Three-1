@@ -4,9 +4,9 @@
         { "route": "Services", "url": "services" }
     ],
     "hero": {
-        "title": "Success Three",
+        "title": "Sucess three",
         "textLines" : [
-            {"line": "Success Three is a premier service provider specializing in consultancy and operational support."}, 
+            {"line": "Sucess three is a premier service provider specializing in consultancy and operational support."}, 
             {"line":"Our expertise extends to both our own operations and those of our valued clients."}, 
             {"line":"With a focus on comprehensive services, we excel in various areas..."}
         ],
@@ -14,19 +14,19 @@
     },
     "about": {
         "title": "About us",
-        "subtitle": "Discover the Story of Success Three",
+        "subtitle": "Discover the Story of Sucess three",
         "content": [
             {
-                "text": "Situated in the heart of the Democratic Republic of Congo, Success Three stands out as a premier service provider specialized in consultancy and operational support. Our expertise extends to both our own operations and those of our valued clients. Placing a distinct emphasis on comprehensive services, our proficiency spans various domains, particularly highlighting customs activities, general trade, investment studies, market agency, business opportunities, as well as economic and accounting consultations. Our array of services includes expert management consultancy, bookkeeping, accounting, financial analysis, personnel placement, and administration."
+                "text": "Situated in the heart of the Democratic Republic of Congo, Sucess three stands out as a premier service provider specialized in consultancy and operational support. Our expertise extends to both our own operations and those of our valued clients. Placing a distinct emphasis on comprehensive services, our proficiency spans various domains, particularly highlighting customs activities, general trade, investment studies, market agency, business opportunities, as well as economic and accounting consultations. Our array of services includes expert management consultancy, bookkeeping, accounting, financial analysis, personnel placement, and administration."
             },
             {
-                "text": "In addition to our consultancy services, Success Three engages in the purchase and sale of mining products and undertakes construction projects, including road rehabilitation. Our company is committed to delivering exceptional results and ensuring client satisfaction in every endeavor."
+                "text": "In addition to our consultancy services, Sucess three engages in the purchase and sale of mining products and undertakes construction projects, including road rehabilitation. Our company is committed to delivering exceptional results and ensuring client satisfaction in every endeavor."
             },
             {
-                "text": "Driven by a passion for excellence, Success Three actively seeks out and explores diverse opportunities that align with our core mission. We are authorized to undertake all financial and commercial activities directly or indirectly related to our primary objective."
+                "text": "Driven by a passion for excellence, Sucess three actively seeks out and explores diverse opportunities that align with our core mission. We are authorized to undertake all financial and commercial activities directly or indirectly related to our primary objective."
             },
             {
-                "text": "At Success Three, we pride ourselves on providing transformative solutions, personalized attention, and reliable support to help our clients thrive in an ever-evolving business landscape. With our comprehensive range of services and unwavering dedication, we are your trusted partner on the path to success."
+                "text": "At Sucess three, we pride ourselves on providing transformative solutions, personalized attention, and reliable support to help our clients thrive in an ever-evolving business landscape. With our comprehensive range of services and unwavering dedication, we are your trusted partner on the path to success."
             }
 
         ]
@@ -80,26 +80,26 @@
         "content": [
             {   
                 "title": "Consultancy and Advisory Services",
-                "extract": "Success Three provides expert guidance and operational assistance in various areas, including economic, accounting, tax, legal, ...",
-                "text": "Success Three provides expert guidance and operational assistance in various areas, including economic, accounting, tax, legal, judicial, and fiduciary matters. Clients can rely on our experienced consultants for strategic advice, management consultancy, and comprehensive solutions tailored to their specific needs.",
+                "extract": "Sucess three provides expert guidance and operational assistance in various areas, including economic, accounting, tax, legal, ...",
+                "text": "Sucess three provides expert guidance and operational assistance in various areas, including economic, accounting, tax, legal, judicial, and fiduciary matters. Clients can rely on our experienced consultants for strategic advice, management consultancy, and comprehensive solutions tailored to their specific needs.",
                 "imageUrl": "images/consultancy.png"
             },
             {
                 "title": "Construction and Road Rehabilitation",
-                "extract": "Success Three undertakes construction projects, including the rehabilitation of roads. With expertise in the construction industry, we provide efficient project management...",
-                "text": "Success Three undertakes construction projects, including the rehabilitation of roads. With expertise in the construction industry, we provide efficient project management, quality control, and timely completion of construction projects.",
+                "extract": "Sucess three undertakes construction projects, including the rehabilitation of roads. With expertise in the construction industry, we provide efficient project management...",
+                "text": "Sucess three undertakes construction projects, including the rehabilitation of roads. With expertise in the construction industry, we provide efficient project management, quality control, and timely completion of construction projects.",
                 "imageUrl": "images/road_construction.png"
             },
             {
                 "title": "Personnel Placement and Management",
-                "extract": "Success Three specializes in personnel placement and management solutions. We help businesses identify and recruit talented professionals suitable for their specific requirements.",
-                "text": "Success Three specializes in personnel placement and management solutions. We help businesses identify and recruit talented professionals suitable for their specific requirements. Our services include candidate sourcing, screening, and placement to ensure the right fit for long-term success.",
+                "extract": "Sucess three specializes in personnel placement and management solutions. We help businesses identify and recruit talented professionals suitable for their specific requirements.",
+                "text": "Sucess three specializes in personnel placement and management solutions. We help businesses identify and recruit talented professionals suitable for their specific requirements. Our services include candidate sourcing, screening, and placement to ensure the right fit for long-term success.",
                 "imageUrl": "images/placement_et_gestion.png"
             },
             {
                 "title": "Financial Analysis & Investment Studies",
-                "extract": "Success Three offers in-depth financial analysis and investment studies to assist clients in making informed decisions.",
-                "text": "Success Three offers in-depth financial analysis and investment studies to assist clients in making informed decisions. Our team analyzes market trends, evaluates investment opportunities, and provides comprehensive reports to support clients in maximizing their financial potential.",
+                "extract": "Sucess three offers in-depth financial analysis and investment studies to assist clients in making informed decisions.",
+                "text": "Sucess three offers in-depth financial analysis and investment studies to assist clients in making informed decisions. Our team analyzes market trends, evaluates investment opportunities, and provides comprehensive reports to support clients in maximizing their financial potential.",
                 "imageUrl": "images/analyse_financiere.png"
             }
         ],
