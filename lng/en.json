@@ -103,16 +103,18 @@
                 "imageUrl": "images/analyse_financiere.png"
             }
         ],
-        "stats": [
-            { "id": 1, "name": "Transactions every 24 hours", "value": "44 million" },
-            { "id": 2, "name": "Assets under holding", "value": "$119 trillion" },
-            { "id": 3, "name": "New users annually", "value": "46,000" }
-        ]
+        "stats": "They trust us"
     },
     "footer": {
         "links" : [
             { "route": "Legal mentions", "url": "legal" }
         ]
+    },
+    "team": {
+        "director": {
+            "name": "Madame Nicole MUAMBA",
+            "description": "Our Chief Executive Officer, Nicole MUAMBA, is the driving force behind our company, bringing strategic vision and inspiring leadership to ensure the ongoing success of our organization."
+        }
     },
     "legal" : {
         "title": "Legal mentions",

@@ -103,16 +103,18 @@
                 "imageUrl": "images/analyse_financiere.png"
             }
         ],
-        "stats": [
-            { "id": 1, "name": "Transactions toutes les 24 heures", "value": "44 millions" },
-            { "id": 2, "name": "Actifs en possession", "value": "119 billions de dollars" },
-            { "id": 3, "name": "Nouveaux utilisateurs chaque année", "value": "46,000" }
-        ]
+        "stats": "Ils nous font confiance"
     },
     "footer": {
         "links": [
             { "route": "Mentions légales", "url": "legal" }
         ]
+    },
+    "team": {
+        "director": {
+            "name": "Madame Nicole MUAMBA",
+            "description": "Notre directrice générale, Nicole MUAMBA, est le moteur de notre entreprise, apportant une vision stratégique et une direction inspirante pour assurer la réussite continue de notre organisation."
+        }
     },
     "legal" : {
         "title": "Mentions légales",

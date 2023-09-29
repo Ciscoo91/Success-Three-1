@@ -25,25 +25,27 @@ export default function Stats() {
 
 
   const stats = [
-  { id: 1, name: 'Transactions every 24 hours', value: '44 million' },
-  { id: 2, name: 'Assets under holding', value: '$119 trillion' },
-  { id: 3, name: 'New users annually', value: '46,000' },
+  { id: 1, name: 'Federation des Entreprises du Congo', value: 'images/FEC.jpeg' },
+  { id: 2, name: 'Gecamines', value: 'images/gecamines.jpg' },
+  { id: 3, name: 'Milvest VSB Consulting', value: 'images/logo_milvest.jpeg' },
 ]
 
   return (
-    <div ref={ref} className="relative h-[40vh] overflow-hidden flex flex-col justify-center">
+    <div ref={ref} className="relative h-[45vh] overflow-hidden flex flex-col justify-center">
       <Container extraClasses="relative bg-palette-blue rounded-b-[2rem] h-full">
         <main >
           <div className=" w-12/12 relative">
             <motion.div>
               <div className="bg-palette-lightOpacity py-24 sm:py-32">
-                <div className="mx-auto max-w-7xl px-6 lg:px-8">
+                <div className="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col items-center">
+                    <h4 className="text-3xl text-white mb-12">{t(`services.stats`)}</h4>
                     <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
                     {stats.map((stat, index) => (
                         <div key={stat.id} className="mx-auto flex max-w-xs flex-col gap-y-4">
-                        <dt className="text-base leading-7 text-slate-200">{t(`services.stats.${index}.name`)}</dt>
+                        <dt className="text-base leading-7 text-slate-200">{stat.name}</dt>
                         <dd className="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">
-                            {t(`services.stats.${index}.value`)}
+                            {/* {t(`services.stats.${index}.value`)} */}
+                            <img src={stat.value} alt={`partenaires ${stat.name}`} className="w-" />
                         </dd>
                         </div>
                     ))}
