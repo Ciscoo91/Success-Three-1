@@ -31,7 +31,7 @@ export default function Services() {
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
         >
-          <aside className="w-1/2">
+          <aside className="md:w-1/2">
             <img src="images/dg_sucess_three.jpg" alt="Directeur Général de Sucess Three" />
             <h2 className="mt-12 text-center">{t(`team.director.name`)}</h2>
             <p className="text-justify">{t(`team.director.description`)}</p>
