@@ -1,7 +1,8 @@
 {
     "nav": [
         { "route": "Accueil", "url": "/" },
-        { "route": "Services", "url": "services" }
+        { "route": "Services", "url": "services" },
+        {"route": "Equipe", "url":"team"}
     ],
     "hero": {
         "title": "Sucess three",

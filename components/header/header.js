@@ -19,6 +19,7 @@ export default function Header() {
   const menuItems = [
     { route: "Home", url: "/" },
     { route: "Services", url: "services" },
+    { route: "Team", url: "team" },
   ];
 
   useEffect(() => {
