@@ -36,9 +36,9 @@ export default function Services() {
             <h2 className="mt-12 text-center">{t(`team.director.name`)}</h2>
             <p className="text-justify">{t(`team.director.description`)}</p>
           </aside>
-          <section className="mt-12 flex flex-col md:grid md:grid-cols-2 gap-12 h-screen">
-            <img src="images/team_working_1.jpg" className="h-1/2" alt="" />
-            <img src="images/team_working.jpg" className="h-1/2" alt="" />
+          <section className="mt-12 flex flex-col md:grid md:grid-cols-2 gap-12 md:h-auto mb-12">
+            <img src="images/team_working_1.jpg" className="h-full" alt="" />
+            <img src="images/team_working.jpg" className="h-full" alt="" />
           </section>
         </motion.div>
       </div>
