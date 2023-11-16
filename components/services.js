@@ -29,7 +29,7 @@ export default function Services() {
         {   
             "title": "Consultancy and Advisory Services",
             "text": "Success Three provides expert guidance and operational assistance in various areas, including economic, accounting, tax, legal, judicial, and fiduciary matters. Clients can rely on our experienced consultants for strategic advice, management consultancy, and comprehensive solutions tailored to their specific needs.",
-            "imageUrl": "images/consultance_sct.jpg"
+            "imageUrl": "images/consultancy.png"
         },
         {
             "title": "Construction and Road Rehabilitation",
