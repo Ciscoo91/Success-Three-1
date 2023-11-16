@@ -27,7 +27,7 @@ export default function Services() {
         </div>
         <motion.div
           ref={ref}
-          className="mt-12 flex flex-col md:grid-cols-2 gap-8 h-fit place-items-stretch font-thin md:w-3/4"
+          className="mt-12 flex flex-col md:grid md:grid-cols-2 gap-8 h-fit place-items-stretch font-thin md:w-3/4"
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
         >
