@@ -29,17 +29,17 @@ export default function Services() {
         {   
             "title": "Consultancy and Advisory Services",
             "text": "Success Three provides expert guidance and operational assistance in various areas, including economic, accounting, tax, legal, judicial, and fiduciary matters. Clients can rely on our experienced consultants for strategic advice, management consultancy, and comprehensive solutions tailored to their specific needs.",
-            "imageUrl": "images/consultancy.png"
+            "imageUrl": "images/consultance_sct.jpg"
         },
         {
             "title": "Construction and Road Rehabilitation",
             "text": "Success Three undertakes construction projects, including the rehabilitation of roads. With expertise in the construction industry, we provide efficient project management, quality control, and timely completion of construction projects.",
-            "imageUrl": "images/road_construction.png"
+            "imageUrl": "images/road_construction.jpg"
         },
         {
             "title": "Personnel Placement and Management",
             "text": "Success Three specializes in personnel placement and management solutions. We help businesses identify and recruit talented professionals suitable for their specific requirements. Our services include candidate sourcing, screening, and placement to ensure the right fit for long-term success.",
-            "imageUrl": "images/placement_et_gestion.png"
+            "imageUrl": "images/placement_perso_sct.jpg"
         },
         {
             "title": "Financial Analysis & Investment Studies",
