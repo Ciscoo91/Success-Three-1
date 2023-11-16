@@ -27,18 +27,23 @@ export default function Services() {
         </div>
         <motion.div
           ref={ref}
-          className="mt-12 grid grid-cols-1 h-fit place-items-center font-thin md:w-3/4"
+          className="mt-12 flex flex-col md:grid-cols-2 gap-8 h-fit place-items-stretch font-thin md:w-3/4"
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
         >
-          <aside className="md:w-1/2">
-            <img src="images/dg_sucess_three.jpg" alt="Directeur Général de Sucess Three" />
-            <h2 className="mt-12 text-center">{t(`team.director.name`)}</h2>
-            <p className="text-justify">{t(`team.director.description`)}</p>
+          <aside className="col-start-1 col-end-2 flex flex-col items-center">
+            <img src="images/dg_sucess_three.jpg" className="md:w-[300px] h-[400px]" alt="Directeur Général de Sucess Three" />
+            <h2 className="mt-12 text-center">{t(`team.ceo.name`)}</h2>
+            <p className="text-justify">{t(`team.ceo.description`)}</p>
           </aside>
-          <section className="mt-12 flex flex-col md:grid md:grid-cols-2 gap-12 md:h-auto mb-12">
-            <img src="images/team_working_1.jpg" className="h-full" alt="" />
-            <img src="images/team_working.jpg" className="h-full" alt="" />
+          <aside className="col-start-2 col-end-3 flex flex-col items-center">
+            <img src="images/dg_adjoint.jpeg" className="md:w-[300px] h-[400px]" alt="Directeur Général Adjoint de Sucess Three" />
+            <h2 className="mt-12 text-center">{t(`team.deputyCEO.name`)}</h2>
+            <p className="text-justify">{t(`team.deputyCEO.description`)}</p>
+          </aside>
+          <section className="mt-12 flex flex-col md:grid md:grid-cols-2 gap-12 md:h-auto mb-12 col-span-full">
+            <img src="images/team_working_1.jpg" className="h-full" alt="Team member of success three" />
+            <img src="images/team_working.jpg" className="h-full" alt="Team member of success three" />
           </section>
         </motion.div>
       </div>

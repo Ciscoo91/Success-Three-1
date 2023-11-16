@@ -112,9 +112,13 @@
         ]
     },
     "team": {
-        "director": {
+        "ceo": {
             "name": "Madame Nicole MUAMBA",
             "description": "Notre directrice générale, Nicole MUAMBA, est le moteur de notre entreprise, apportant une vision stratégique et une direction inspirante pour assurer la réussite continue de notre organisation."
+        },
+        "deputyCEO": {
+            "name": "François-Xavier Mutanga Mujangi",
+            "description": "Le Directeur Général Adjoint assiste le Directeur Général et assure l'intérim de ce dernier en cas d'absence prolongée ou d'empêchement."
         }
     },
     "legal" : {

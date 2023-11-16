@@ -112,9 +112,13 @@
         ]
     },
     "team": {
-        "director": {
+        "ceo": {
             "name": "Madame Nicole MUAMBA",
             "description": "Our Chief Executive Officer, Nicole MUAMBA, is the driving force behind our company, bringing strategic vision and inspiring leadership to ensure the ongoing success of our organization."
+        },
+        "deputyCEO": {
+            "name": "François-Xavier Mutanga Mujangi",
+            "description": "The Deputy General Manager assists the Chief Executive Officer and takes over in case of prolonged absence or impediment."
         }
     },
     "legal" : {
